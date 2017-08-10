@@ -4,7 +4,7 @@ body, html {
 } 
 
 body {
-  background-color: $light-grey_20;
+  background-color: #EBEAE6;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -67,6 +67,15 @@ h4,
 h5,
 p {
 	color: $dark-blue;
+}
+
+h1,
+.subheadline_h1
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Nunito', sans-serif;
 }
 
 h1,

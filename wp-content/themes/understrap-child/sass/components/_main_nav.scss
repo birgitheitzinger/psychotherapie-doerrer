@@ -1,11 +1,20 @@
 /*navbar*/
 
+#wrapper-navbar .navbar > .container {
+	 	padding-top: 5px; 
+	 	padding-bottom: 5px; 
+	}
+
 .navbar-brand {
-	font-weight: 600;
-	font-style: italic;
-	color: $dark-blue;
-	font-size: 32px;
-	padding-top: 0;
+	width: 300px; 
+	height: auto;
+	padding: 0px;
+	margin: 0px; 
+}
+
+.navbar-brand img {
+	width: 100%; 
+	height: auto; 
 }
 
 .navbar-brand:hover {
@@ -149,11 +158,6 @@
 		margin-top: 4px;
 	 }
 
-	#wrapper-navbar .navbar > .container {
-	 	padding-top: 10px; 
-	 	padding-bottom: 10px; 
-	}
-
 	ul#main-menu {
 	  -ms-flex-preferred-size: 100%;
 	      flex-basis: 100%;
@@ -219,4 +223,12 @@
 	}
 
 }
+
+@media (max-width: 575px) {
+	.navbar-brand {
+		width: 70%;
+		max-width: 300px; 
+	}
+}
+
 

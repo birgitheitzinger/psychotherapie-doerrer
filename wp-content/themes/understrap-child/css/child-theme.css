@@ -9241,7 +9241,7 @@ body, html {
   overflow-x: hidden; }
 
 body {
-  background-color: #F5F5F5;
+  background-color: #EBEAE6;
   font-family: 'Open Sans', sans-serif; }
 
 a:hover,
@@ -9291,6 +9291,13 @@ h4,
 h5,
 p {
   color: #1F222E; }
+
+h1,
+.subheadline_h1 h2,
+h3,
+h4,
+h5 {
+  font-family: 'Nunito', sans-serif; }
 
 h1,
 h2,
@@ -9465,12 +9472,19 @@ h4,
     padding-right: 10px; } }
 
 /*navbar*/
+#wrapper-navbar .navbar > .container {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
 .navbar-brand {
-  font-weight: 600;
-  font-style: italic;
-  color: #1F222E;
-  font-size: 32px;
-  padding-top: 0; }
+  width: 300px;
+  height: auto;
+  padding: 0px;
+  margin: 0px; }
+
+.navbar-brand img {
+  width: 100%;
+  height: auto; }
 
 .navbar-brand:hover {
   color: #353843; }
@@ -9579,9 +9593,6 @@ h4,
   button.navbar-toggler {
     float: right;
     margin-top: 4px; }
-  #wrapper-navbar .navbar > .container {
-    padding-top: 10px;
-    padding-bottom: 10px; }
   ul#main-menu {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
@@ -9623,6 +9634,11 @@ h4,
     border-bottom: 2px solid #629DD9 !important; }
   #main-menu .dropdown-menu .menu-item a.nav-link:hover {
     background-color: transparent !important; } }
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    width: 70%;
+    max-width: 300px; } }
 
 /*buttons*/
 button:focus {

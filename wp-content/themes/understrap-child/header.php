@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Nunito:300,400|Merriweather:300" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php else : ?>
 
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="perspek.tiefe">perspek<span>tiefe</span>
+							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="psychotherapie-doerrer"><img src="http://psy.dbkldp.com/wp-content/themes/understrap-child/img/psy-doerrer_logo.png" alt="Psychotherapie Dörrer">
 							</a>
 
 							<!-- <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a> -->
