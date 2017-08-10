@@ -1,0 +1,16 @@
+/*
+ Theme Name:   UnderStrap Child
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       Holger Koenemann
+ Author URI:   http://www.holgerkoenemann.de
+ Template:     understrap
+ Version:      0.3.0
+ License:      Commercial
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+*/
+.persp_button{border-radius:1px; background-color:#396899; padding:6px 8px; min-width:300px;}
+.persp_button a{color:white;}
+.persp_download_button a{color: #8CB7E3}
+.one_half {    width: 49% !important;    padding-right: 1%;}

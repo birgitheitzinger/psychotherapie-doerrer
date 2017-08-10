@@ -1,0 +1,201 @@
+
+body, html {
+  overflow-x: hidden; 
+} 
+
+body {
+  background-color: $light-grey_20;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+
+#page {
+	overflow: scroll;
+}
+
+.section {
+	padding-bottom: 60px;
+	margin: 0 auto;
+}
+
+div #content {
+  max-width: 1360px;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 61vh;
+}
+
+footer {
+	max-width: 1360px !important;
+  margin: 0 auto;
+}
+
+hr {
+	color: $light-grey_60;
+	background-color: $light-grey_60;
+}
+
+.entry-title {
+	display: none;
+}
+
+.wrapper {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.content-column,
+.section,
+.page-child #content,
+.single-termin #content,
+.home .container-fluid {
+	background-color: $white;
+}
+
+/*____________TYPE______________*/
+
+h1,
+.subheadline_h1
+h2,
+h3,
+h4,
+h5,
+p {
+	color: $dark-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+.btn {
+	font-weight: 600;
+}
+
+.light_text {
+	color: $light-grey_20;
+}
+
+h1 {
+	font-size: $xl_fontsize;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	line-height: 1.4;
+}
+
+.subheadline_h1 {
+	font-size: $md_fontsize;
+	font-style: italic;
+	margin-top: -40px;
+	margin-bottom: 50px;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: $lg_fontsize !important;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	line-height: 1.55;
+}
+
+h3 {
+	font-size: $md_fontsize;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	line-height: 1.55;
+}
+
+h4 {
+	font-size: $sm_fontsize;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+h5 {
+	line-height: 1.4;
+	-webkit-hyphens: auto;
+	    -ms-hyphens: auto;
+	        hyphens: auto; 
+}
+
+p {
+	font-size: $standard_fontsize;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.55;
+}
+
+.one_third p,
+.one_third li {
+	-ms-hyphens: auto;
+	    hyphens: auto;
+	-webkit-hyphens: auto;
+}
+
+.footer_txt * {
+	font-size: $xs_fontsize;
+}
+
+.footer * {
+	font-weight: 300;
+}
+
+.footer h1 {
+	letter-spacing: 2px;
+}
+
+
+.subheadline_h1
+h2,
+h4,
+.footer_txt * {
+	line-height: 1.75;
+}
+
+.post-navigation {
+  display: none; 
+}
+
+/*_______________UTILITIES________________*/
+
+.padding-0 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.margin-0 {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.flush-top {
+	margin-top: 0 !important;
+}
+
+.flush-bottom {
+	margin-bottom: 0 !important;
+}
+
+.flush {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}
+
+.hyphens {
+	-webkit-hyphens: auto;
+	    -ms-hyphens: auto;
+	        hyphens: auto;
+}
+
+
+@media (max-width: 991px) {
+	.padding-15-sm {
+		padding-left: 15px; 
+		padding-right: 15px;
+	}
+}

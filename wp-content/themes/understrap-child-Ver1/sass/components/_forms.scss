@@ -1,0 +1,103 @@
+
+.gfield_label {
+	color: $medium-bluegray;
+}
+
+.gfield input,
+.gfield textarea {
+	background-color: $light-grey_20;
+	border: 1px solid $light-grey_60;
+	padding-left: 10px !important;
+	font-size: 18px !important;
+}
+
+.gfield_checkbox label {
+	font-size: 18px !important;
+	color: $medium-bluegray;
+}
+
+.gfield_checkbox input {
+	margin-right: 15px;
+} 
+
+.ginput_complex.ginput_container label {
+    display: none !important;
+}
+
+.gform_wrapper .instruction {
+	padding-top: 5px;
+	margin-left: 10px;
+	color: $light-grey;
+}
+
+.gform_button {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	display: inline-block;
+	margin-right: 0 !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+.gform_body h3 {
+	margin-top: 30px;
+}
+
+/* Anmeldeformular Einzeltermin */
+
+#field_1_8:before {
+	content: "Anzahl der Teilnehmer";
+}
+
+#content .output_ptermin_formular {
+	display: inline-block !important;
+}
+
+
+/*Newsletter, Anmelde und Feedback Formular*/
+
+.page-id-424 .container-fluid,
+.page-id-430 .container-fluid,
+.page-id-428 .container-fluid {
+	background-color: $white;
+	padding-bottom: 20px;
+}
+
+.page-id-424 .gform_body .gfield,
+.page-id-424 .gform_body .gfield input,
+.page-id-430 .gform_body .gfield,
+.page-id-430 .gform_body .gfield input,
+.page-id-430 .gform_body .ginput_container textarea,
+.page-id-428 .gform_body .gfield,
+.page-id-428 .gform_body .gfield input,
+.page-id-428 .gform_body .ginput_container textarea {
+	width: 100% !important;
+	padding-right: 0 !important;
+}
+
+.page-id-424 .gform_wrapper,
+.page-id-430 .gform_wrapper,
+.page-id-428 .gform_wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+
+.page-id-424 .gform_wrapper:before,
+.page-id-430 .gform_wrapper:before,
+.page-id-428 .gform_wrapper:before {
+	font-size: $md_fontsize;
+	font-weight: 600;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.page-id-424 #wrapper-footer > .container-fluid,
+.page-id-430 #wrapper-footer > .container-fluid,
+.page-id-428 #wrapper-footer > .container-fluid {
+	display: none;
+}
+
+
+

@@ -1,0 +1,32 @@
+
+/*_______Landingpage Section Paddings____________*/
+
+.departments .container-md-up,
+.banner_profile .profile_txt,
+.banner_credentials__description_txt,
+.footer,
+.single-termin #main,
+.navbar > .container,
+.wrapper_three_departments,
+.page-child #main,
+.persp_formular #main {
+	padding-left: $standard_padding !important;
+	padding-right: $standard_padding !important;
+}
+
+.page-header-img,
+#post-98 .landingpage_slider {
+  margin-left: (-$standard_padding);
+  margin-right: (-$standard_padding);
+}
+
+.home .content-column.three_fifth {
+	padding-left: $standard_padding;
+	padding-right: 75px;
+}
+
+.home .content-column.two_fifth {
+  padding-right: $standard_padding;
+  padding-left: 25px; 
+}
+

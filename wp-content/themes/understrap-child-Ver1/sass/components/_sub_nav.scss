@@ -1,0 +1,54 @@
+
+.page-child .persp_subpage_children.one_fourth:before {
+	content: "";
+  color: $light-grey;
+  font-size: $md_fontsize;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  height: 52px;
+  display: block;
+}
+
+
+.page-child .persp_subpage_children.one_fourth {
+	margin-top: 80px !important; /*148 wenn haupt-überschrift h1*/
+	padding-left: 30px;
+  margin-bottom: 60px;
+}
+
+.persp_subpage_children {
+	list-style: none;
+}
+
+.persp_subpage_children >.page_item {
+	padding-left: 20px !important;
+  padding-top: 10px;
+  padding-bottom: 14px;
+	margin-top: 10px;
+}
+
+.persp_subpage_children li a {
+	display: block;
+	border-left: 2px solid transparent;
+	color: $dark-bluegray;
+}
+
+.persp_subpage_children .current_page_item {
+	border-left: 2px solid $light-blue;
+	font-weight: 600;
+	color: $light-blue;
+}
+
+@media (max-width: 767px) {
+
+	.page-child .one_fourth {
+		display: none !important;
+	}
+
+	.page-child .three_fourth {
+		width: 100% !important;
+		padding-right: 0 !important;
+	}
+
+}

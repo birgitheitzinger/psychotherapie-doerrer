@@ -1,0 +1,123 @@
+/*buttons*/
+
+.path_arrow > svg > polyline {
+	fill: none;
+	stroke: $light-blue;
+	stroke-width: 1;
+}
+
+.btn_banner,
+.btn_in_text,
+.gform_button {
+	font-weight: 600;
+	font-size: $xs-fontsize;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: $medium-blue;
+	border: none;
+	border-radius: 0;
+	color: $white;
+}
+
+.btn_in_text a {
+	color: white !important;
+}
+
+#main-menu .btn_main_nav .nav-link {
+	font-weight: 600;
+	font-size: $xs-fontsize;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: $medium-blue;
+	border: none;
+	border-radius: 0;
+	color: $white;
+}
+
+.btn_banner:hover,
+.btn_in_text:hover,
+.gform_button:hover,
+#main-menu .btn_main_nav .nav-link:hover {
+	background-color: $medium-blue-hover;
+	border: none;
+	border-radius: 0;
+	color: $white !important;
+	box-shadow: 0px 0px 5px rgba(0,0,0, 0.3);
+}
+
+.btn_banner:active,
+.btn_in_text:active,
+.btn_in_text:focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:active:focus,
+#main-menu .btn_main_nav .nav-link:active,
+#main-menu .btn_main_nav .nav-link:hover,
+.gform_button:active,
+.gform_button:focus {
+	background-color: $medium-blue-hover;
+	border: none !important;
+	border-radius: 0;
+	color: $white !important;
+	outline: none;
+}
+
+.btn_banner {
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+
+.btn_in_text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.btn i {
+	font-size: $md_fontsize;
+	position: absolute;
+	left: 20px;
+	top: 8px;
+}
+
+.btn-icon {
+	position: relative;
+	padding-left: 50px;
+}
+
+.btn-icon-right {
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+.btn-icon-right i {
+	right: 20px;
+	left: auto;	
+}
+
+/* Call to Action Button Main Nav */
+
+
+#main-menu .btn_main_nav .nav-link {
+	color: $white !important;
+	display: flex;
+  	align-items: center;
+  	padding-left: 15px;
+}
+
+#main-menu .btn_main_nav .nav-link:after {
+	content: "\f105";
+	font-family: FontAwesome;
+	font-size: $md_fontsize !important;
+	color: $white;
+	display: inline-block;
+	font-weight: 400;
+	padding-left: 15px;
+	padding-right: 8px;
+	line-height: 0.9;
+}
+
+#main-menu .btn_main_nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

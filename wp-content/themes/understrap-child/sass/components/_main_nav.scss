@@ -1,0 +1,222 @@
+/*navbar*/
+
+.navbar-brand {
+	font-weight: 600;
+	font-style: italic;
+	color: $dark-blue;
+	font-size: 32px;
+	padding-top: 0;
+}
+
+.navbar-brand:hover {
+	color: #353843;
+}
+
+.navbar-brand:hover> span {
+	color: #72a7dd;
+}
+
+.navbar-brand > span {
+	color: $light-blue;
+}
+
+#wrapper-navbar .navbar >.container {
+	width: 100%;
+	max-width: 1360px;
+	background-color: $white;
+}
+
+#wrapper-navbar .navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#main-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbarNavDropdown {
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+
+#main-menu .menu-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#main-menu>li:not(:last-child) {
+	margin-right: 15px;
+}
+
+#main-menu li .nav-link {
+	color: $dark-blue;
+}
+
+#main-menu li .nav-link:after {
+	display: none;
+}
+
+#main-menu >.current-menu-parent > a,
+#main-menu >.menu-item:active > a,
+#main-menu >.menu-item.show.open > a {
+	color: $light-blue !important;
+	font-weight: 600;
+}
+
+#main-menu .menu-item .dropdown-menu li a:hover {
+	color: $medium-blue !important;
+}
+
+#main-menu >.menu-item > a:before {
+	display: block;
+	content: attr(title);
+	font-weight: 600;
+	height:1px;
+	color: transparent;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#main-menu >.btn_main_nav > a:before {
+	display: none;
+}
+
+
+#main-menu .dropdown-menu .current-menu-item {
+	border-left: 2px solid $light-blue;
+	color: $light-blue;
+	font-weight: 600;
+}
+
+
+#main-menu .dropdown-menu .menu-item a.nav-link:hover {
+	background-color: transparent;
+}
+
+#wrapper-navbar nav.navbar.navbar-toggleable-md.navbar-default {
+	padding: 0 !important;
+}
+
+
+/*____________Media Q____________*/
+
+@media (min-width: 992px) {
+
+	#main-menu >.current-menu-parent,
+	#main-menu >.menu-item:active,
+	#main-menu >.menu-item.show.open {
+		border-bottom: 2px solid $light-blue !important;
+	}
+
+	#main-menu .menu-item .dropdown-menu {
+		border: none;
+		background-color: $light-grey_20;
+		border-radius: 0 !important;
+		margin-top: 20px; 
+	}
+
+	#main-menu .menu-item .dropdown-menu:before {
+	  content: "\f0d8";
+		width: 20px;
+		height: 20px; 
+		position: absolute;  
+	  color: $light-grey_20;
+	  top: -30px;
+    left: 20px;
+    font-size: 34px;
+	  font-family: FontAwesome;
+		}
+
+}
+
+
+@media (max-width: 991px) {
+
+	button.navbar-toggler {
+		float: right;
+		margin-top: 4px;
+	 }
+
+	#wrapper-navbar .navbar > .container {
+	 	padding-top: 10px; 
+	 	padding-bottom: 10px; 
+	}
+
+	ul#main-menu {
+	  -ms-flex-preferred-size: 100%;
+	      flex-basis: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  div#navbarNavDropdown {
+    border-top: 1px solid $light-grey_60;
+    margin-top: 15px;
+	} 
+
+	span.navbar-toggler-icon:before {
+    color: $dark-blue;
+    content: "\f0c9";
+    font-size: 30px;
+    font-family: FontAwesome;
+	}
+
+
+	#main-menu {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	#main-menu >li >.nav-link {
+		font-weight: 600;
+    font-size: 25px;
+	}
+
+	#main-menu .menu-item {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		font-weight: 400;
+	}
+
+	#main-menu .dropdown-menu	 {
+		border: none;
+	}
+
+	#main-menu >li {
+		border-bottom: 2px solid transparent !important;
+	}
+
+	#main-menu>li:not(:last-child) {
+		margin-right: 0px;
+	}
+
+	#main-menu > .current-menu-parent.menu-item.show.open > a,
+	#main-menu > .menu-item.show.open > a {
+		width: 100%;
+		border-bottom: 2px solid $light-blue !important;
+	}
+
+	#main-menu .dropdown-menu .menu-item a.nav-link:hover {
+		background-color: transparent !important;
+	}
+
+}
+

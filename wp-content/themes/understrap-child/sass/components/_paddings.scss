@@ -1,0 +1,94 @@
+
+
+.departments .container-md-up,
+.banner_profile .profile_txt,
+.banner_credentials__description_txt,
+.footer,
+.single-termin #main,
+.wrapper_three_departments,
+.page-child #main,
+.persp_formular #main,
+.navbar > .container {
+  padding-left: $standard_padding;
+  padding-right: $standard_padding;
+}
+
+
+.page-header-img,
+#post-98 .landingpage_slider {
+  margin-left: (-$standard_padding);
+  margin-right: (-$standard_padding);
+}
+
+.home .content-column.three_fifth {
+  padding-left: $standard_padding;
+  padding-right: 75px;
+}
+
+.home .content-column.two_fifth {
+  padding-right: $standard_padding;
+  padding-left: 25px; 
+}
+
+
+@media (min-width: 1200px) {
+  .departments .container-md-up,
+  .banner_profile .profile_txt,
+  .banner_credentials__description_txt,
+  .footer,
+  .single-termin #main,
+  .navbar > .container,
+  .wrapper_three_departments,
+  .page-child #main,
+  .persp_formular #main {
+    padding-left: 4.5vw !important;
+    padding-right: 4.5vw !important;
+  }
+
+  .home .content-column.two_fifth {
+    padding-right: 4.5vw !important;
+  }
+
+  .home .content-column.three_fifth {
+    padding-left: 4.5vw !important;
+  }
+
+  .page-header-img,
+  #post-98 .landingpage_slider {
+    margin-left: -4.5vw !important;
+    margin-right: -4.5vw !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #wrapper-navbar .navbar > .container,
+  .wrapper_three_departments {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #wrapper-navbar .navbar .navbar-brand {
+    padding-left: $standard_padding;
+  }
+
+  #wrapper-navbar button.navbar-toggler,
+  .home .content-column.three_fifth {
+    padding-right: $standard_padding !important;
+  }
+
+  #main-menu > li > .nav-link:not(:last-child),
+  #main-menu > li > ul li {
+    padding-left: $standard_padding;
+    padding-right: $standard_padding;
+  }
+
+  #main-menu > li > ul li a {
+    padding-left: 0; 
+    padding-right: 0; 
+  }
+
+  #main-menu > li > .nav-link:last-child {
+    margin-left: $standard_padding;
+    padding-right: 10px; 
+  }
+}

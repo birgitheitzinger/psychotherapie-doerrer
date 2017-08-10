@@ -1,0 +1,142 @@
+/*footer*/
+
+#wrapper-footer-full {
+	background-color: $light-grey_20;
+	padding-top: 0 !important; 
+	padding-bottom: 0 !important;
+}
+
+.footer {
+	padding-bottom: 0;
+	background-color: $dark-blue;
+}
+
+.footer-widget {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer .row:last-child {
+	padding-bottom: 10px;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.footer h1 {
+	color: $white;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.footer a {
+	color: #A1C4E8;
+}
+
+.footer i {
+	padding-right: 15px;
+}
+
+.footer_copyright {
+	padding-top: 90px;
+}
+
+.footer_copyright *:not(:last-child) {
+	padding-right: 30px;
+}
+
+.footer_copyright >.footer_xs_section {
+	padding-left: initial;
+}
+
+
+.footer_copyright div >a:last-of-type {
+	float: right;
+	margin-top: 0px;
+}
+
+.nl_subscription_link,
+.feedback_form_link {
+  display: block
+}
+
+@media (min-width: 768px) {
+
+	.footer {
+		padding-bottom: 20px; 
+	}
+
+}
+
+/*_________RESPONSIVE__________*/
+
+@media (max-width: 991px) {
+
+	.footer_copyright {
+		padding-top: 40px; 
+	}
+
+	.footer_copyright_bottom >a:last-child {
+		text-align: left;
+		padding-left: 0px;
+		float: none !important;
+		display: block;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.footer * {
+		text-align: center !important;
+		line-height: 1.75;
+	}
+
+	.footer .row:last-child {
+		padding-bottom: 0;
+	}
+
+ 	.footer_xs_section {
+ 		margin-top: 30px;
+ 	}
+
+ 	.footer_xs_section *,
+ 	.nl_subscription_link,
+	.feedback_form_link {
+ 		line-height: 2.5;
+ 	}
+
+
+	.footer_copyright * {
+		display: block;
+		padding: 0 !important;
+	}
+
+	.footer_copyright {
+		padding-top: 0;
+	}
+
+	.footer i {
+		padding-right: 20px !important;
+		padding-left: 20px !important;
+		font-size: $md_fontsize;
+	}
+
+	.footer_copyright_bottom ul,
+	.footer_copyright_bottom ul li {
+		display: inline-block;
+	}
+
+	.footer >.container-fluid {
+		padding-bottom: 90px !important;
+	}
+
+	.footer_copyright_bottom >a:last-child {
+		margin-bottom: 60px;
+	}
+
+}

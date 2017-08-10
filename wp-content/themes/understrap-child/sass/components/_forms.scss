@@ -1,0 +1,136 @@
+
+.gform_wrapper .top_label .gfield_label {
+	display: none !important ;
+}
+
+.gfield_label {
+	color: $medium-bluegray;
+}
+
+body .gform_wrapper .top_label div.ginput_container {
+	margin-top: 0 !important;
+}
+
+body .gform_wrapper ul li.gfield input,
+body .gform_wrapper ul li.gfield textarea,
+body .gform_wrapper ul li.gfield select {
+	margin-top: 15px !important; 
+}
+
+.gfield input,
+.gfield textarea,
+select {
+	background-color: $light-grey_20;
+	border: 1px solid $light-grey_60;
+	padding-left: 10px !important;
+	font-size: 18px !important;
+}
+
+.gform_wrapper .gfield_checkbox li input, 
+.gform_wrapper .gfield_checkbox li input[type=checkbox], 
+.gform_wrapper .gfield_radio li input[type=radio] {
+	vertical-align: initial !important; 
+}
+
+.gfield_checkbox label {
+	font-size: 18px !important;
+	color: $medium-bluegray;
+}
+
+.gfield_checkbox {
+	margin-bottom: 0px !important; 
+	padding-left: 0 !important; 
+}
+
+.gfield_checkbox input {
+	margin-right: 20px;
+	padding-left: 0 !important; 
+} 
+
+.ginput_complex.ginput_container label {
+    display: none !important;
+}
+
+.gform_wrapper .instruction {
+	padding-top: 5px;
+	margin-left: 10px;
+	color: $light-grey;
+}
+
+
+.gform_button {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	display: inline-block;
+	margin-right: 0 !important;
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+}
+
+.gform_footer.top_label {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.gform_body h3 {
+	margin-top: 30px;
+}
+
+
+/* Anmeldeformular Einzeltermin */
+
+#content .output_ptermin_formular {
+	display: inline-block !important;
+}
+
+.single-termin .output_ptermin_formular {
+	margin-top: -20px; 
+}
+
+
+/*Newsletter, Anmelde und Feedback Formular*/
+
+.page-id-424 .container-fluid,
+.page-id-430 .container-fluid,
+.page-id-428 .container-fluid {
+	background-color: $white;
+	padding-bottom: 20px;
+}
+
+.page-id-424 .gform_body .gfield,
+.page-id-424 .gform_body .gfield input,
+.page-id-430 .gform_body .gfield,
+.page-id-430 .gform_body .gfield input,
+.page-id-430 .gform_body .ginput_container textarea,
+.page-id-428 .gform_body .gfield,
+.page-id-428 .gform_body .gfield input,
+.page-id-428 .gform_body .ginput_container textarea {
+	width: 100% !important;
+	padding-right: 0 !important;
+}
+
+.page-id-424 .gform_wrapper,
+.page-id-430 .gform_wrapper,
+.page-id-428 .gform_wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+
+.page-id-424 .gform_wrapper:before,
+.page-id-430 .gform_wrapper:before,
+.page-id-428 .gform_wrapper:before {
+	font-size: $md_fontsize;
+	font-weight: 600;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+#wrapper-footer > .container-fluid,
+#wrapper-footer > .container-fluid,
+#wrapper-footer > .container-fluid {
+	display: none;
+}
+
+

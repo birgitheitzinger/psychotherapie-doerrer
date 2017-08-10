@@ -1,0 +1,281 @@
+
+.page-header-img {
+  margin-left: -30px;
+  margin-right: -30px;
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-header-img img {
+  width: 100%;
+  height: auto;
+  max-width: none !important;
+}
+
+.page-child .three_fourth {
+  padding-right: 60px;
+}
+
+@media (max-width: 1199px) {
+  .page-child > .three_fourth {
+    width: 70% !important; 
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-header-img {
+    height: 300px !important;
+  }
+
+  .page-child >.three_fourth {
+    padding-right: 30px; 
+    width: 62% !important; 
+  }
+}
+
+@media (max-width: 575px) {
+  .page-header-img {
+    height: 250px !important;
+  }
+}
+
+
+/* one-third columns */
+
+.entry-content >.one_third {
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+.entry-content >.one_third:first-of-type {
+  padding-left: 0;
+}
+
+.entry-content >.one_third:last-of-type {
+  padding-right: 0;
+}
+
+.entry-content >.one_third p {
+  margin-top: 40px;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto; 
+}
+
+.entry-content >.one_third h3 {
+  margin-bottom: 10px;
+}
+
+.entry-content >.one_third p + ul,
+.entry-content >.one_third p + ol {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 1090px) {
+  .entry-content >.one_third {
+    width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* in-text-quotes*/
+
+blockquote {
+  display: block;
+  padding-right: 25%;
+  padding-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+blockquote p:first-child {
+  font-weight: 600;
+  font-style: italic; 
+  font-size: $sm_fontsize; 
+  line-height: 1.67;
+}
+
+blockquote p:first-child:before {
+  content: "\201E";
+}
+
+blockquote p:first-child:after {
+  content: "\201C";
+}
+
+blockquote p:nth-child(2){
+  font-size: $standard_fontsize;
+  line-height: 1.67;
+  color: $medium-bluegray;
+  margin-top: 20px;
+}
+
+blockquote p:nth-child(2):before {
+  content: "\2014 \2002";
+}
+
+@media (max-width: 768px) {
+  .page_content_quote {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
+
+
+/* download link in text*/
+
+a[href$=".pdf"] {
+  display: block;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: $light-grey_60;
+  font-size: $standard_fontsize;
+  color: $light-blue !important;
+  padding: 20px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a[href$=".pdf"]:before {
+  content: "\f1c1";
+  font-family: FontAwesome;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+ 
+/* list styles */
+
+.page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields),
+.page-child #main .entry-content ol,
+.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields),
+.single-termin #main .content-column ol {
+  list-style-type: none !important;
+  font-size: $standard_fontsize;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
+.page-child #main .entry-content ol li:before,
+.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before,
+.single-termin #main .content-column ol li:before {
+  text-align: right;
+  margin-left: -35px;
+  margin-right: 20px;
+  width: 15px;
+  display: inline-block;
+}
+
+.page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
+.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before, {
+  content: "\25aa"; 
+  color: $medium-blue;
+}
+
+.page-child #main .entry-content ol li:before,
+.single-termin #main .content-column ol li:before {
+  color: $medium-blue;
+  font-weight: 600;
+  content: counter(li) ".";
+}
+
+.page-child #main .entry-content ol  li,
+.single-termin #main .content-column ol li {
+  counter-increment: li;
+}
+
+.page-child #main .entry-content ol  li,
+.page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields)  li,
+.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li,
+.single-termin #main .content-column ol li {
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+
+/* Tournavigation */
+
+.persp_subpage_children.subpage-navi > .page_item {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+}
+
+.subpage-navi {
+  border-top: 1px solid $light-grey_60;
+  padding: 20px 0 ;
+  margin-top: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100% !important;
+}
+
+.subpage-navi li a {
+  color: $light-blue !important;
+}
+
+.subpage-navi .persp_child_back a,
+.subpage-navi .current_page_item + li a {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subpage-navi .persp_child_back a:before {
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17' height='36' fill='none' stroke='#629DD9' stroke-width='1'><polyline points='14,0 0,17 14,36'></polyline></svg>");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  padding-top: 8px;
+}
+
+.subpage-navi .current_page_item + li a:after {
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17' height='36' fill='none' stroke='#629DD9' stroke-width='1'><polyline points='0,36 14,17 0,0'></polyline></svg>");
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
+
+@media (max-width: 575px) {
+  .subpage-navi li a {
+    font-size: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .persp_subpage_children.subpage-navi {
+    padding-right: 0 !important
+  }
+}
+
+/*____________KORREKTUREN____________*/
+
+/* Blendet Header Bild auf Seite aus wo z.B. Slider statt Bild ist*/
+#post-2 .page-header-img,
+#post-98 .page-header-img,
+.persp_formular .page-header-img,
+#post-88 .page-header-img,
+#post-89 .page-header-img,
+#post-90 .page-header-img,
+#post-91 .page-header-img {
+  display: none !important;
+}
+
+
+
