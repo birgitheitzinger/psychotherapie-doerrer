@@ -208,7 +208,7 @@ a[href$=".pdf"]:before {
 }
 
 .subpage-navi {
-  border-top: 1px solid $light-grey_60;
+  border-top: 1px solid $ultra-light-wramgrey;
   padding: 20px 0 ;
   margin-top: 40px;
   display: -webkit-box !important;
@@ -221,7 +221,7 @@ a[href$=".pdf"]:before {
 }
 
 .subpage-navi li a {
-  color: $light-blue !important;
+  color: $intense-green !important; 
 }
 
 .subpage-navi .persp_child_back a,
@@ -235,7 +235,7 @@ a[href$=".pdf"]:before {
 }
 
 .subpage-navi .persp_child_back a:before {
-  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17' height='36' fill='none' stroke='#629DD9' stroke-width='1'><polyline points='14,0 0,17 14,36'></polyline></svg>");
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='36' fill='none' stroke='#4D9E54' stroke-width='1'><polyline points='13.8,36 2.8,23.5 0.8,20.8 0,18 0.8,14.8 2.8,11.5 13.8,0'></polyline></svg>");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +244,7 @@ a[href$=".pdf"]:before {
 }
 
 .subpage-navi .current_page_item + li a:after {
-  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17' height='36' fill='none' stroke='#629DD9' stroke-width='1'><polyline points='0,36 14,17 0,0'></polyline></svg>");
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='36' fill='none' stroke='#4D9E54' stroke-width='1'><polyline points='0,0 11,11.5 13,14.8 13.8,18 13,20.8 11,23.5 0,36'></polyline></svg>");
   margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,7 +267,6 @@ a[href$=".pdf"]:before {
 /*____________KORREKTUREN____________*/
 
 /* Blendet Header Bild auf Seite aus wo z.B. Slider statt Bild ist*/
-#post-2 .page-header-img,
 #post-98 .page-header-img,
 .persp_formular .page-header-img,
 #post-88 .page-header-img,

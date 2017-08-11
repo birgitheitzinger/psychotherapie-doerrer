@@ -8,7 +8,7 @@
 
 .footer {
 	padding-bottom: 0;
-	background-color: $dark-blue;
+	background-color: $dark-warmgrey;
 }
 
 .footer-widget {
@@ -31,13 +31,14 @@ footer ul {
 	color: $white;
 	text-transform: uppercase;
 	padding-top: 30px;
+	font-weight: 200 !important;
 }
 
 .footer a {
-	color: #A1C4E8;
+	color: $light-green;
 }
 
-.footer i {
+.footer_txt i {
 	padding-right: 15px;
 }
 
@@ -120,7 +121,7 @@ footer ul {
 		padding-top: 0;
 	}
 
-	.footer i {
+	.footer_txt i {
 		padding-right: 20px !important;
 		padding-left: 20px !important;
 		font-size: $md_fontsize;

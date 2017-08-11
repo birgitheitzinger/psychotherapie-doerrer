@@ -84,30 +84,66 @@ wp_footer();
 
 
       //sticky sidebar
+      
+      var element = ".sticky_sidebar";
+      var target = 0.3; // vh / 100
+      var duration = 500; // time in ms to reach target
 
+      var posLast = 0;
+      var activeInterpolation = false;
+      var interpolator = null;
 
-        var lastPos = 0;
-        var currentPos = 0;
-        var element = ".sticky_sidebar";
+      HermiteInterpolator = function(data) {
+        // inverse matrix multiplication
+        this.coef = [ 2*data[0] - 2*data[1] + data[2] + data[3],
+                -3*data[0] + 3*data[1] - 2*data[2] - data[3],
+                data[2],
+                data[0]];
 
+        this.startTime = Date.now();
+      };
+      HermiteInterpolator.prototype.Eval = function(t) {
+        return ((this.coef[0]*t + this.coef[1])*t + this.coef[2])*t + this.coef[3]; // horner's method
+      };
+      HermiteInterpolator.prototype.DEval = function(t) {
+        return (3*this.coef[0]*t + 2*this.coef[1])*t + this.coef[2];
+      };
+      HermiteInterpolator.prototype.Progress = function() {
+        return Math.min(1, (Date.now() - this.startTime) / duration);
+      };
+      HermiteInterpolator.prototype.Run = function() {
+        var progress = this.Progress();
+        $(element).css("top", this.Eval(progress) + $(window).height()*target);
 
-        $(window).scroll(function() {
-          lastPos = currentPos;
-          currentPos = $(window).scrollTop();
+        if (progress == 1) {
+          activeInterpolation = false;
+        }
+        else {
+          setTimeout("interpolator.Run()", 10);
+        }
+      };
 
-          if ($(window).width() < 576) {
-            $(element).css('top', 'initial');
-            return;
+      $(window).scroll(function() {
+        if ($(window).width() < 565) {
+          return;
+        }
 
-          }
+        var posCurrent = $(window).scrollTop();
+        $(element).css("margin-top", -posCurrent);
+        
+        if (activeInterpolation) {
+          var progress = interpolator.Progress();
+          // stitch old and new polynomial together
+          interpolator = new HermiteInterpolator([interpolator.Eval(progress), posCurrent, interpolator.DEval(progress), 0]);
+        }
+        else {
+          activeInterpolation = true;
+          interpolator = new HermiteInterpolator([posLast, posCurrent, 0, 0]);
+          interpolator.Run();
+        }
 
-          var top = parseFloat($(element).css("top"));
-          $(element)
-            .stop()
-            .css("top", (top - (currentPos - lastPos)).toString() + "px")
-            .animate({top: "30vh"}, {duration: 300, specialEasing: {height: "easeOutExpo"}});
-
-        });
+        posLast = posCurrent;
+      });
 
 
       // image resize in slider and header image 

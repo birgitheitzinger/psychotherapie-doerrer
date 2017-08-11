@@ -18,6 +18,10 @@
 	padding-left: 60px;
 }
 
+.single-termin .persp_termin_alle.section.events a:first-of-type > div {
+	margin-top: 40px; 
+}
+
 .single-event_info_wrapper {
 	border-color: $light-grey_60;
 	border-style: solid;
@@ -64,7 +68,7 @@
 }
 
 .single-event_info_labels {
-	font-weight: 600;
+	font-weight: 400;
 	width: auto;
 	min-width: 120px;
 }

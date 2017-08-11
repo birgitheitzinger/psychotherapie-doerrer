@@ -23,7 +23,7 @@ select {
 	background-color: $light-grey_20;
 	border: 1px solid $light-grey_60;
 	padding-left: 10px !important;
-	font-size: 18px !important;
+	font-size: $standard-fontsize;
 }
 
 .gform_wrapper .gfield_checkbox li input, 

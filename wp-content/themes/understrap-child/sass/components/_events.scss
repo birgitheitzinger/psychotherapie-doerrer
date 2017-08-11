@@ -58,6 +58,10 @@
 
 /* landingpage */
 
+.persp_termin_alle.section.events a:first-of-type> div {
+	border-top: 1px solid $light-grey_60;
+}
+
 @media (max-width: 991px) {
 	.home .three_fifth {
 		width: 100% !important;

@@ -9,7 +9,7 @@
 /*_________Colors________*/
 
 
-$brand-primary:         #1F222E; //#ff6d5a
+$brand-primary:         #424141; //#ff6d5a
 
 
 $dark-blue: #1F222E;
@@ -29,10 +29,22 @@ $light-grey_20: #F5F5F5;
 
 $white: #FFFFFF;
 
+$dark-warmgrey: #424141; /* Text */
+$medium-warmgrey: #5C5B5A; /* Headlines */
+$light-warmgrey: #8C8B89; /* Quote Text */
+$ultra-light-wramgrey: #D9D7D4; /* Lines */
+
+$beige-grey: #EBEAE6; /* Background */
+
+$intense-green: #4D9E54; /* Buttons, Headlines, etc. */
+$intense-green_hover: #5AB862;
+$light-green: #AAE3B4; /* Footer Text. */
+
+
 
 /*_________Font Sizes________*/
 
-$standard_fontsize: 18px;
+$standard_fontsize: 17px;
 
 $xl_fontsize: 38px;
 

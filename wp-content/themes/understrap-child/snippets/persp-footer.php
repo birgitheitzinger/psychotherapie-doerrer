@@ -2,9 +2,9 @@
 
   <div class="sticky_sidebar">
     <ul>
-      <li><a href="tel:+4318902205"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
-      <li><a href="mailto:office@perspektiefe.at"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-      <li><a href="https://goo.gl/maps/93YvYEgRZeL2"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+      <li><a href="tel:+4318902205"><i class="ion-ios-telephone-outline" aria-hidden="true"></i></a></li>
+      <li><a href="mailto:office@perspektiefe.at"><i class="ion-ios-email-outline" aria-hidden="true"></i></a></li>
+      <li><a href="https://goo.gl/maps/93YvYEgRZeL2"><i class="ion-ios-location-outline" aria-hidden="true"></i></a></li>
     </ul>
   </div>
 

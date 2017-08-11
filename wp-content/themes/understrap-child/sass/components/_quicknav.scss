@@ -11,6 +11,9 @@
 .sticky_sidebar {
   background-color: $white;
   display: inline-block;
+  border-radius: 12px 0 0 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: fixed;
   top: 30vh;
   right: 0;
@@ -31,22 +34,18 @@
 }
 
 .sticky_sidebar li a i {
-  padding: 8px;
-  color: $medium-blue !important;
+  padding: 4px 10px;
+  color: $intense-green !important;
+  font-size: 35px;
 }
 
-.sticky_sidebar li:first-child a i,
 .sticky_sidebar li:last-child a i {
   font-size: 29px; 
 }
 
-.sticky_sidebar li:nth-child(2) a i  {
-  font-size: 25px; 
-} 
-
 
 .sticky_sidebar li a i:hover {
-  color: $medium-blue-hover !important;
+  color: $intense-green_hover !important;
 }
 
 @media (max-width: 576px) {
@@ -58,11 +57,14 @@
     right: 0;
     bottom: 0;
     width: 100%;
+    border-radius: 0;
     height: auto;
     top: initial !important;
-    background-color: $light-blue_20;
-    border-top: 1px solid $medium-blue;
-    border-bottom: 1px solid $medium-blue;
+    background-color: $white;
+    border-top: 1px solid $intense-green;
+    padding-top: 0; 
+    padding-bottom: 0;
+    line-height: 1.2 !important;
   }
 
   .sticky_sidebar ul {

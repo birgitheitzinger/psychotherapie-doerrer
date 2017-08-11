@@ -66,24 +66,24 @@ h3,
 h4,
 h5,
 p {
-	color: $dark-blue;
+	color: $dark-warmgrey;
 }
 
 h1,
-.subheadline_h1
-h2,
-h3,
-h4,
-h5 {
+h2 {
 	font-family: 'Nunito', sans-serif;
 }
 
 h1,
-h2,
+h2 {
+	font-weight: 300;
+}
+
 h3,
 h4,
+h5,
 .btn {
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .light_text {
@@ -99,10 +99,10 @@ h1 {
 
 .subheadline_h1 {
 	font-size: $md_fontsize;
+	font-weight: 300;
 	font-style: italic;
 	margin-top: -40px;
 	margin-bottom: 50px;
-	font-weight: 400;
 }
 
 h2 {
@@ -151,7 +151,7 @@ p {
 }
 
 .footer * {
-	font-weight: 300;
+	font-weight: 200 !important;
 }
 
 .footer h1 {
@@ -195,16 +195,5 @@ h4,
 	margin-top: 0 !important;
 }
 
-.hyphens {
-	-webkit-hyphens: auto;
-	    -ms-hyphens: auto;
-	        hyphens: auto;
-}
 
 
-@media (max-width: 991px) {
-	.padding-15-sm {
-		padding-left: 15px; 
-		padding-right: 15px;
-	}
-}

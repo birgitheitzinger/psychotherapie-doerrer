@@ -1,9 +1,10 @@
 /*navbar*/
 
 #wrapper-navbar .navbar > .container {
-	 	padding-top: 5px; 
-	 	padding-bottom: 5px; 
-	}
+ 	padding-top: 15px; 
+ 	padding-bottom: 15px;
+ 	font-size: 17px;
+}
 
 .navbar-brand {
 	width: 300px; 
@@ -13,21 +14,14 @@
 }
 
 .navbar-brand img {
-	width: 100%; 
-	height: auto; 
+	width: 220px; 
+	height: auto;
 }
 
-.navbar-brand:hover {
+/*.navbar-brand:hover {
 	color: #353843;
-}
+}*/
 
-.navbar-brand:hover> span {
-	color: #72a7dd;
-}
-
-.navbar-brand > span {
-	color: $light-blue;
-}
 
 #wrapper-navbar .navbar >.container {
 	width: 100%;
@@ -70,7 +64,7 @@
 }
 
 #main-menu li .nav-link {
-	color: $dark-blue;
+	color: $medium-warmgrey;
 }
 
 #main-menu li .nav-link:after {
@@ -80,12 +74,12 @@
 #main-menu >.current-menu-parent > a,
 #main-menu >.menu-item:active > a,
 #main-menu >.menu-item.show.open > a {
-	color: $light-blue !important;
-	font-weight: 600;
+	color: $intense-green !important;
+	font-weight: 400;
 }
 
 #main-menu .menu-item .dropdown-menu li a:hover {
-	color: $medium-blue !important;
+	color: $intense-green !important;
 }
 
 #main-menu >.menu-item > a:before {
@@ -104,8 +98,8 @@
 
 
 #main-menu .dropdown-menu .current-menu-item {
-	border-left: 2px solid $light-blue;
-	color: $light-blue;
+	border-left: 2px solid $light-green;
+	color: $intense-green;
 	font-weight: 600;
 }
 
@@ -126,7 +120,7 @@
 	#main-menu >.current-menu-parent,
 	#main-menu >.menu-item:active,
 	#main-menu >.menu-item.show.open {
-		border-bottom: 2px solid $light-blue !important;
+		border-bottom: 2px solid $intense-green !important;
 	}
 
 	#main-menu .menu-item .dropdown-menu {
@@ -137,15 +131,15 @@
 	}
 
 	#main-menu .menu-item .dropdown-menu:before {
-	  content: "\f0d8";
+	  content: "\f365";
 		width: 20px;
 		height: 20px; 
 		position: absolute;  
 	  color: $light-grey_20;
 	  top: -30px;
     left: 20px;
-    font-size: 34px;
-	  font-family: FontAwesome;
+    font-size: 38px;
+	  font-family: Ionicons;
 		}
 
 }
@@ -175,10 +169,10 @@
 	} 
 
 	span.navbar-toggler-icon:before {
-    color: $dark-blue;
-    content: "\f0c9";
+    color: $medium-warmgrey;
+    content: "\f20d";
     font-size: 30px;
-    font-family: FontAwesome;
+    font-family: Ionicons;
 	}
 
 
