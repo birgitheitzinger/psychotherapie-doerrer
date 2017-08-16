@@ -38,18 +38,18 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 hidden-sm-down">
           <ul>
-            <li><a target="_blank" href="https://goo.gl/maps/93YvYEgRZeL2"><i class="fa fa-map-marker" aria-hidden="true"></i>Lageplan</a></li>
-            <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-            <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="fa fa-google" aria-hidden="true"></i>Google +</a></li>
-            <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="fa fa-xing" aria-hidden="true"></i>Xing</a></li>
+            <li><a target="_blank" href="https://goo.gl/maps/93YvYEgRZeL2"><i class="ion-ios-location" aria-hidden="true"></i>Lageplan</a></li>
+            <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="ion-social-facebook" aria-hidden="true"></i>Facebook</a></li>
+            <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="ion-social-googleplus" aria-hidden="true"></i>Google +</a></li>
+            <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="ion-social-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="ion-ios-person" aria-hidden="true"></i>Xing</a></li>
           </ul>
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 nl_feedback_links">
           <ul>
-            <li class="nl_subscription_link"><a href="http://persp.dbkldp.com/newsletter/"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Newsletter abonnieren</a></li>
-            <li class="feedback_form_link"><a href="http://persp.dbkldp.com/feedback/"><i class="fa fa-commenting-o" aria-hidden="true"></i>Feedback geben</a></li>
+            <li class="nl_subscription_link"><a href="http://persp.dbkldp.com/newsletter/"><i class="ion-ios-paper" aria-hidden="true"></i>Newsletter abonnieren</a></li>
+            <li class="feedback_form_link"><a href="http://persp.dbkldp.com/feedback/"><i class="ion-ios-chatbubble" aria-hidden="true"></i>Feedback geben</a></li>
           </ul>
         </div>
       </div>
@@ -63,10 +63,10 @@
           <a href="http://persp.dbkldp.com/agbs/">AGBs</a>
           <a target="_blank" href="http://www.psychotherapie-doerrer.at">www.psychotherapie-doerrer.at </a>
           <ul class="hidden-md-up">
-            <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-            <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="fa fa-xing" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="ion-social-facebook" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="ion-social-googleplus" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="ion-social-linkedin" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="ion-close" aria-hidden="true"></i></a></li>
           </ul>
           <a target="_blank" href="http://infound.at">Site by INFOUND</a>
         </div>

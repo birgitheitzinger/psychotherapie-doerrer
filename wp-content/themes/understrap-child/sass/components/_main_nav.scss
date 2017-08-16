@@ -4,6 +4,7 @@
  	padding-top: 15px; 
  	padding-bottom: 15px;
  	font-size: 17px;
+ 	font-family: 'Nunito', sans-serif;
 }
 
 .navbar-brand {
@@ -98,7 +99,7 @@
 
 
 #main-menu .dropdown-menu .current-menu-item {
-	border-left: 2px solid $light-green;
+	border-left: 2px solid $intense-green;
 	color: $intense-green;
 	font-weight: 600;
 }
@@ -184,7 +185,7 @@
 	}
 
 	#main-menu >li >.nav-link {
-		font-weight: 600;
+		font-weight: 300;
     font-size: 25px;
 	}
 
@@ -209,7 +210,7 @@
 	#main-menu > .current-menu-parent.menu-item.show.open > a,
 	#main-menu > .menu-item.show.open > a {
 		width: 100%;
-		border-bottom: 2px solid $light-blue !important;
+		border-bottom: 2px solid $intense-green !important;
 	}
 
 	#main-menu .dropdown-menu .menu-item a.nav-link:hover {

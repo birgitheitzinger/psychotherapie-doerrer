@@ -2,19 +2,24 @@
 
 
 .banner_profile {
-	background-color: $dark-blue;
+	background-color: $dark-warmgrey;
 	margin-top: 60px;
 }
 
 .banner_profile .profile_txt {
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 .banner_profile .profile_img {
-	background-image: url("../img/profile_img_landingpage.png");
+	background-image: url("../img/profile_img_landingpage.jpg");
 	background-size: cover;
 	background-position: center center;
+	right: -1px;
+}
+
+.banner_profile .btn_banner {
+	margin-bottom: 20px !important; 
 }
 
 .profile_img > div {
@@ -43,7 +48,7 @@
 	}
 
 	.banner_profile .profile_txt {
-		background-image: url("../img/profile_img_landingpage.png");
+		background-image: url("../img/profile_img_landingpage.jpg");
 		background-size: 135%;
     	background-position: left top;
 	}

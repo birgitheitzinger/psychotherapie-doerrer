@@ -70,7 +70,9 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -168,6 +170,10 @@ h4,
 
 .post-navigation {
   display: none; 
+}
+
+.post-edit-link {
+	display: none;
 }
 
 /*_______________UTILITIES________________*/

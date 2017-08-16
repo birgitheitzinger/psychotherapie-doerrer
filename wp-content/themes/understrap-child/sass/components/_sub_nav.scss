@@ -1,11 +1,12 @@
 
 .page-child .persp_subpage_children.one_fourth:before {
   content: "";
+  font-family: 'Nunito', sans-serif;
   color: $light-grey;
   font-size: $md_fontsize;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 300;
   height: 52px;
   display: block;
 }
@@ -35,7 +36,7 @@
 }
 
 .persp_subpage_children .current_page_item {
-  border-left: 2px solid $light-blue;
+  border-left: 2px solid $intense-green;
   font-weight: 600;
   color: $light-blue;
 }

@@ -40,7 +40,10 @@ footer ul {
 
 .footer_txt i {
 	padding-right: 15px;
+	font-size: 18px;
+	line-height: 0.5;
 }
+
 
 .footer_copyright {
 	padding-top: 90px;
@@ -124,7 +127,21 @@ footer ul {
 	.footer_txt i {
 		padding-right: 20px !important;
 		padding-left: 20px !important;
-		font-size: $md_fontsize;
+		font-size: 28px;
+	}
+
+	.footer_txt i:before {
+		display: inline-block;
+    position: relative;
+    top: 3px;
+	}
+
+	.footer_txt .hidden-md-up {
+		line-height: 3;
+	}
+
+	.footer_txt .hidden-md-up i:before {
+		top: 6px;
 	}
 
 	.footer_copyright_bottom ul,
@@ -137,7 +154,7 @@ footer ul {
 	}
 
 	.footer_copyright_bottom >a:last-child {
-		margin-bottom: 60px;
+		margin-bottom: 90px;
 	}
 
 }

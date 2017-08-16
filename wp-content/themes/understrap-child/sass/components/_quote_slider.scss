@@ -1,27 +1,55 @@
 
 .quotes_landingpage_slider {
 	padding: 30px;
-	background-color: $light-grey_20;
 	margin-top: 13px;
-	margin-bottom: 40px; 
+	margin-bottom: 40px;
+	position: relative;
+	background-color: $beige-grey_50;
+	border-radius: 5px; 
+}
+
+.quotes_landingpage_slider:before {
+	content: "";
+	background: url("http://psy.dbkldp.com/wp-content/themes/understrap-child/img/quotemark_before.png");
+	position: absolute;
+  background-size: 26px auto !important;
+  width: 33px;
+  height: 33px;
+  background-repeat: no-repeat !important;
+  left: -20px;
+}
+
+.quotes_landingpage_slider:after {
+	content: "";
+	background: url("http://psy.dbkldp.com/wp-content/themes/understrap-child/img/quotemark_after.png");
+	position: absolute;
+  background-size: 26px auto !important;
+  width: 33px;
+  height: 33px;
+  background-repeat: no-repeat !important;
+  right: -20px;
+  margin-top: -50px;
 }
 
 .quotes_landingpage .slick-slide {
 	display: block !important;
 }
 
-.quotes_landingpage p:first-child {
-	font-weight: 600;
+.quotes_landingpage p:nth-child(2) {
+	font-weight: 300;
 	font-style: italic; 
-	font-size: $standard_fontsize; 
+	font-size: 17px;
+	font-family: 'Nunito', sans-serif;
 	line-height: 1.67;
+	color: $medium-warmgrey;
 }
 
 .quotes_landingpage .author {
-	font-size: $xs_fontsize;
+	font-size: $xs-fontsize;
 	line-height: 1.67;
-	color: $medium-bluegray;
+	color: $intense-green;
 	margin-top: 20px;
+	font-weight: 200;
 }
 
 .quotes_landingpage .author:before {
@@ -30,7 +58,8 @@
 
 .slick-dots {
 	float: right;
-	margin-top: -10px; 
+	margin-top: -10px;
+	display: none; 
 }
 
 
@@ -50,6 +79,7 @@
 	width: 10px;
 	padding: 0;
 	border: 0;
+	display: none; 
 }
 
 .slick-active button {

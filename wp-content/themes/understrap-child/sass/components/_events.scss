@@ -35,19 +35,19 @@
 
 .all_events_page {
 	padding-bottom: 40px; 
-	border-bottom: 1px solid $light-grey_60;
 }
 
 .persp_termin > .path_arrow {
 	position: absolute;
 	right: 30px;
 	top: 50%;
-	margin-top: -29px;
+	margin-top: -20px;
 }
 
 .persp_termin:hover { 
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0, 0.3); 
 	        box-shadow: 0px 0px 10px rgba(0,0,0, 0.3);
+	border-radius: 5px; 
 }
 
 .no-events {
@@ -75,6 +75,11 @@
 
 
 /* all events */
+
+.page-id-2 h3,
+.page-id-98 h3 {
+  color: $intense-green; 
+}
 
 .page-id-98 #main {
 	padding-bottom: 60px; 
