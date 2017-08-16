@@ -9323,7 +9323,7 @@ h5,
 h1 {
   font-size: 38px;
   margin-top: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   line-height: 1.4; }
 
 .subheadline_h1 {
@@ -9385,8 +9385,9 @@ h4,
 .post-navigation {
   display: none; }
 
+.edit-link,
 .post-edit-link {
-  display: none; }
+  display: none !important; }
 
 /*_______________UTILITIES________________*/
 .padding-0 {
@@ -10107,7 +10108,7 @@ select {
 @media (max-width: 991px) {
   .home .three_fifth {
     width: 100% !important;
-    margin-bottom: 60px; }
+    margin-bottom: 40px; }
   .home .two_fifth {
     width: 100% !important;
     padding-left: 30px; } }

@@ -95,7 +95,7 @@ h5,
 h1 {
 	font-size: $xl_fontsize;
 	margin-top: 60px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	line-height: 1.4;
 }
 
@@ -172,8 +172,9 @@ h4,
   display: none; 
 }
 
+.edit-link,
 .post-edit-link {
-	display: none;
+	display: none !important;
 }
 
 /*_______________UTILITIES________________*/
