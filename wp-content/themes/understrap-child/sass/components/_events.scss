@@ -65,13 +65,15 @@
 @media (max-width: 991px) {
 	.home .three_fifth {
 		width: 100% !important;
-		margin-bottom: 40px;
 	}
+
 	.home .two_fifth {
 		width: 100% !important;
 		padding-left: $standard_padding;
+		margin-bottom: 60px;
 	}
 }
+
 
 
 /* all events */

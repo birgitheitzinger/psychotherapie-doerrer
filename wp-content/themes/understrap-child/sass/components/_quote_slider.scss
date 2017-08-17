@@ -28,7 +28,7 @@
   height: 33px;
   background-repeat: no-repeat !important;
   right: -20px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .quotes_landingpage .slick-slide {
@@ -85,3 +85,14 @@
 .slick-active button {
 	background-color: $medium-bluegray !important;
 }
+
+
+@media (max-width: 767px) {
+  .quotes_landingpage_slider {
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+}
+
+
+

@@ -164,7 +164,16 @@ footer ul {
 	}
 
 	.footer_copyright_bottom >a:last-child {
-		margin-bottom: 90px;
+		margin-bottom: 40px;
 	}
 
 }
+
+@media (max-width: 575px) {
+	.footer_copyright_bottom >a:last-child {
+		margin-bottom: 90px;
+	}
+}
+
+
+

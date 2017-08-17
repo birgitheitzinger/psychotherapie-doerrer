@@ -1,21 +1,29 @@
+/* Overflow Fix*/
 
-body, html {
-  overflow-x: hidden; 
+html, body {
+  overflow-x: hidden !important; 
 } 
 
+@media (max-width: 991px ) {
+	#wpadminbar {
+		display: none !important;
+	}
+
+	html, body {
+		margin-top: 0 !important;
+	}
+}
+
+/*_______Base________*/
+
 body {
-  background-color: #EBEAE6;
+  background-color: $beige-grey;
   font-family: 'Open Sans', sans-serif;
 }
 
 a:hover,
 a:focus {
 	text-decoration: none;
-}
-
-
-#page {
-	overflow: scroll;
 }
 
 .section {
