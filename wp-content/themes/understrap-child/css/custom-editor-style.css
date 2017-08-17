@@ -9252,7 +9252,7 @@ html, body {
 @media (max-width: 991px) {
   #wpadminbar {
     display: none !important; }
-  html, body {
+  .logged-in {
     margin-top: 0 !important; } }
 
 /*_______Base________*/
