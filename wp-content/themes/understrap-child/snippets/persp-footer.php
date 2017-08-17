@@ -19,7 +19,7 @@
     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-          <p class="light_text flush-bottom">Meidlinger Hauptstrasse 46<br>
+          <p class="light_text flush-top flush-bottom">Meidlinger Hauptstrasse 46<br>
             (Eingang Pohlgasse 2)<br>
             1120 Wien, AUSTRIA</p>
           <p class="light_text flush-bottom">MO, MI 15:30 - 18 Uhr<br>
@@ -44,8 +44,8 @@
             <li><a target="_blank" href="https://goo.gl/maps/93YvYEgRZeL2"><i class="ion-ios-location" aria-hidden="true"></i>Lageplan</a></li>
             <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="ion-social-facebook" aria-hidden="true"></i>Facebook</a></li>
             <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="ion-social-googleplus" aria-hidden="true"></i>Google +</a></li>
-            <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="ion-social-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="ion-ios-person" aria-hidden="true"></i>Xing</a></li>
+            <!--<li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="ion-social-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="ion-ios-person" aria-hidden="true"></i>Xing</a></li> -->
           </ul>
         </div>
 
@@ -68,8 +68,8 @@
           <ul class="hidden-md-up">
             <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="ion-social-facebook" aria-hidden="true"></i></a></li>
             <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="ion-social-googleplus" aria-hidden="true"></i></a></li>
-            <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="ion-social-linkedin" aria-hidden="true"></i></a></li>
-            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="ion-close" aria-hidden="true"></i></a></li>
+            <!-- <li><a target="_blank" href="https://at.linkedin.com/in/stefan-d%C3%B6rrer-7880804b"><i class="ion-social-linkedin" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://www.xing.com/profile/Stefan_Doerrer"><i class="ion-close" aria-hidden="true"></i></a></li>-->
           </ul>
           <a target="_blank" href="http://infound.at">Site by INFOUND</a>
         </div>

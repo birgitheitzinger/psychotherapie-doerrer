@@ -43,6 +43,16 @@
 }
 
 @media (max-width: 575px) {
+
+	.banner_profile h1 {
+		color: $dark-warmgrey;
+	}
+
+	.banner_profile .subheadline_h1,
+	.banner_profile p {
+		color: $dark-warmgrey;
+	}
+
 	.banner_profile {
 		min-height: 350px;
 	}
@@ -51,7 +61,15 @@
 		background-image: url("../img/profile_img_landingpage.jpg");
 		background-size: 135%;
     	background-position: left top;
+  	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 	}
+
+	.btn_banner {
+    align-self: flex-start;
+  }
 
 	.profile_txt .subheadline_h1 {
     max-width: 70%;
