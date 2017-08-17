@@ -19,9 +19,12 @@
     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-          <p class="light_text flush-top flush-bottom">Meidlinger Hauptstrasse 46<br>
+          <p class="light_text flush-bottom">Meidlinger Hauptstrasse 46<br>
             (Eingang Pohlgasse 2)<br>
             1120 Wien, AUSTRIA</p>
+          <p class="light_text flush-bottom">MO, MI 15:30 - 18 Uhr<br>
+            DI, DO 10 - 13 Uhr<br>
+            FR 8 - 12 Uhr</p>
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 footer_xs_section">

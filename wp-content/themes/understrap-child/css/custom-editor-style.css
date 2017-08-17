@@ -10308,6 +10308,9 @@ footer ul {
   font-size: 18px;
   line-height: 0.5; }
 
+.footer_xs_section {
+  margin-top: 20px; }
+
 .footer_copyright {
   padding-top: 90px; }
 
@@ -10345,12 +10348,15 @@ footer ul {
     line-height: 1.75; }
   .footer .row:last-child {
     padding-bottom: 0; }
-  .footer_xs_section {
-    margin-top: 30px; }
-  .footer_xs_section *,
+  .footer_xs_secton p.light_text {
+    margin-bottom: 30px !important; }
+  .footer_xs_section > ul *,
+  .footer_copyright > .footer_xs_section *,
   .nl_subscription_link,
   .feedback_form_link {
     line-height: 2.5; }
+  .footer_xs_section {
+    margin-top: 30px !important; }
   .footer_copyright * {
     display: block;
     padding: 0 !important; }
@@ -10365,9 +10371,7 @@ footer ul {
     position: relative;
     top: 3px; }
   .footer_txt .hidden-md-up {
-    line-height: 3; }
-  .footer_txt .hidden-md-up i:before {
-    top: 6px; }
+    line-height: 2.8; }
   .footer_copyright_bottom ul,
   .footer_copyright_bottom ul li {
     display: inline-block; }
