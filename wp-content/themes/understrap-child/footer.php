@@ -53,7 +53,68 @@ wp_footer();
 
 	    <script type="text/javascript">
 
-		// Slider Landingpage
+		      //Original code from http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/
+      //Rewritten version
+      //By @mathias, @cheeaun and @jdalton
+
+      (function(doc) {
+
+        var addEvent = 'addEventListener',
+            type = 'gesturestart',
+            qsa = 'querySelectorAll',
+            scales = [1, 1],
+            meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+        function fix() {
+          meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+          doc.removeEventListener(type, fix, true);
+        }
+
+        if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+          fix();
+          scales = [.25, 1.6];
+          doc[addEvent](type, fix, true);
+        }
+
+      }(document));
+
+
+      // image resize in slider and header image 
+
+      resize_header_image = function() {
+        var parent = $('.page-header-img');
+        var child = $('.page-header-img img');
+
+        if (!parent.length || !child.length){
+          return;
+        }
+
+        var img_ratio = child.width() / child.height();
+        var parent_ratio = parent.width() / parent.height();
+
+        if (parent_ratio > img_ratio) {
+            child.css({
+              'height': 'auto',
+              'width': '100%',
+              'margin-left': 0 + 'px'
+            });
+        }
+        else {
+            var margin = (child.width() - parent.width()) / 2;
+            child.css({
+              'height': '100%',
+              'width': 'auto',
+              'margin-left': -margin + 'px'
+            });
+        }    
+      }
+
+      // terrible ugly hack! don't show ANYBODY!
+      $(document).ready(function(){resize_header_image();setTimeout("resize_header_image()", 0);});
+      $(window).resize(resize_header_image);
+      
+
+    // Slider Landingpage
 
       $(document).ready(function(){
         $('.landingpage_slider').slick({
@@ -145,66 +206,6 @@ wp_footer();
         posLast = posCurrent;
       });
 
-
-      // Original code from http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/
-      // Rewritten version
-      // By @mathias, @cheeaun and @jdalton
-
-      (function(doc) {
-
-        var addEvent = 'addEventListener',
-            type = 'gesturestart',
-            qsa = 'querySelectorAll',
-            scales = [1, 1],
-            meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
-
-        function fix() {
-          meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
-          doc.removeEventListener(type, fix, true);
-        }
-
-        if ((meta = meta[meta.length - 1]) && addEvent in doc) {
-          fix();
-          scales = [.25, 1.6];
-          doc[addEvent](type, fix, true);
-        }
-
-      }(document));
-
-
-      // image resize in slider and header image 
-
-      resize_header_image = function() {
-        var parent = $('.page-header-img');
-        var child = $('.page-header-img img');
-
-        if (!parent.length || !child.length){
-          return;
-        }
-
-        var img_ratio = child.width() / child.height();
-        var parent_ratio = parent.width() / parent.height();
-
-        if (parent_ratio > img_ratio) {
-            child.css({
-              'height': 'auto',
-              'width': '100%',
-              'margin-left': 0 + 'px'
-            });
-        }
-        else {
-            var margin = (child.width() - parent.width()) / 2;
-            child.css({
-              'height': '100%',
-              'width': 'auto',
-              'margin-left': -margin + 'px'
-            });
-        }    
-      }
-
-      // terrible ugly hack! don't show ANYBODY!
-      $(document).ready(function(){resize_header_image();setTimeout("resize_header_image()", 0);});
-      $(window).resize(resize_header_image);
 
 
     </script>

@@ -9251,9 +9251,7 @@ html, body {
 
 @media (max-width: 991px) {
   #wpadminbar {
-    display: none !important; }
-  .logged-in {
-    margin-top: 0 !important; } }
+    display: none !important; } }
 
 /*_______Base________*/
 body {
@@ -9589,17 +9587,17 @@ h4,
   #main-menu .menu-item .dropdown-menu {
     border: none;
     background-color: #F5F5F5;
-    border-radius: 0 !important;
-    margin-top: 20px; }
+    border-radius: 5px;
+    margin-top: 18px; }
   #main-menu .menu-item .dropdown-menu:before {
-    content: "\f365";
+    content: "\f10d";
     width: 20px;
     height: 20px;
     position: absolute;
     color: #F5F5F5;
     top: -30px;
     left: 20px;
-    font-size: 38px;
+    font-size: 40px;
     font-family: Ionicons; } }
 
 @media (max-width: 991px) {
@@ -10253,7 +10251,7 @@ select {
 .quotes_landingpage .slick-slide {
   display: block !important; }
 
-.quotes_landingpage p:nth-child(2) {
+.quotes_landingpage > p:nth-child(2) {
   font-weight: 300;
   font-style: italic;
   font-size: 17px;

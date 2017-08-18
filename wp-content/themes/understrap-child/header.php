@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Nunito:200,300,300i,400,400i|Merriweather:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Nunito:200,300,300i,400,400i,600" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
