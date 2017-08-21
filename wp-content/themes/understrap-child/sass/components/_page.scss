@@ -102,30 +102,50 @@ blockquote {
 }
 
 blockquote p:first-child {
-  font-weight: 600;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
   font-style: italic; 
-  font-size: $sm_fontsize; 
+  font-size: $sm_fontsize;
+  color: $light-warmgrey;
   line-height: 1.67;
 }
 
 blockquote p:first-child:before {
-  content: "\201E";
+  content: "";
+  background: url("../img/quotemark_before.png");
+  position: absolute;
+  background-size: 17px auto !important;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat !important;
+  margin-left: -30px;
+  margin-top: 15px;
 }
 
 blockquote p:first-child:after {
-  content: "\201C";
+  content: "";
+  background: url("../img/quotemark_after.png");
+  position: absolute;
+  background-size: 16.5px auto !important;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat !important;
+  margin-left: 15px;
+  margin-bottom: -12px;
 }
 
 blockquote p:nth-child(2){
   font-size: $standard_fontsize;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.67;
-  color: $medium-bluegray;
+  color: $intense-green;
   margin-top: 20px;
 }
 
 blockquote p:nth-child(2):before {
   content: "\2014 \2002";
 }
+
 
 @media (max-width: 768px) {
   .page_content_quote {
@@ -150,8 +170,8 @@ a[href$=".pdf"] {
 }
 
 a[href$=".pdf"]:before {
-  content: "\f1c1";
-  font-family: FontAwesome;
+  content: "\f12e";
+  font-family: Ionicons;
   font-size: 22px;
   margin-right: 20px;
 }
@@ -183,15 +203,20 @@ a[href$=".pdf"]:before {
 
 .page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
 .single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before, {
-  content: "\25aa"; 
-  color: $medium-blue;
+  content: "\2022"; 
+  color: $intense-green;
+  font-size: $sm_fontsize;
+  line-height: 0;
+  position: absolute;
+  margin-top: 12px;
 }
 
 .page-child #main .entry-content ol li:before,
 .single-termin #main .content-column ol li:before {
-  color: $medium-blue;
-  font-weight: 600;
+  color: $intense-green;
+  font-weight: 400;
   content: counter(li) ".";
+  font-family: 'Nunito', sans-serif;
 }
 
 .page-child #main .entry-content ol  li,

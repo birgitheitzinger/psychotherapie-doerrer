@@ -32,13 +32,15 @@
 .persp_subpage_children li a {
   display: block;
   border-left: 2px solid transparent;
-  color: $dark-bluegray;
+  color: $medium-warmgrey;
+  font-family: 'Nunito', sans-serif;
+  font-size: $standard_fontsize;
 }
 
 .persp_subpage_children .current_page_item {
   border-left: 2px solid $intense-green;
   font-weight: 600;
-  color: $light-blue;
+  color: $intense_green;
 }
 
 

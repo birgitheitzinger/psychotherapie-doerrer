@@ -10652,21 +10652,40 @@ blockquote {
   margin-bottom: 30px; }
 
 blockquote p:first-child {
-  font-weight: 600;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
   font-style: italic;
   font-size: 20px;
+  color: #8C8B89;
   line-height: 1.67; }
 
 blockquote p:first-child:before {
-  content: "\201E"; }
+  content: "";
+  background: url("../img/quotemark_before.png");
+  position: absolute;
+  background-size: 17px auto !important;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat !important;
+  margin-left: -30px;
+  margin-top: 15px; }
 
 blockquote p:first-child:after {
-  content: "\201C"; }
+  content: "";
+  background: url("../img/quotemark_after.png");
+  position: absolute;
+  background-size: 16.5px auto !important;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat !important;
+  margin-left: 15px;
+  margin-bottom: -12px; }
 
 blockquote p:nth-child(2) {
   font-size: 17px;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.67;
-  color: #787A82;
+  color: #4D9E54;
   margin-top: 20px; }
 
 blockquote p:nth-child(2):before {
@@ -10690,8 +10709,8 @@ a[href$=".pdf"] {
   margin-bottom: 30px; }
 
 a[href$=".pdf"]:before {
-  content: "\f1c1";
-  font-family: FontAwesome;
+  content: "\f12e";
+  font-family: Ionicons;
   font-size: 22px;
   margin-right: 20px; }
 
@@ -10718,14 +10737,19 @@ a[href$=".pdf"]:before {
 
 .page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
 .single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before {
-  content: "\25aa";
-  color: #396899; }
+  content: "\2022";
+  color: #4D9E54;
+  font-size: 20px;
+  line-height: 0;
+  position: absolute;
+  margin-top: 12px; }
 
 .page-child #main .entry-content ol li:before,
 .single-termin #main .content-column ol li:before {
-  color: #396899;
-  font-weight: 600;
-  content: counter(li) "."; }
+  color: #4D9E54;
+  font-weight: 400;
+  content: counter(li) ".";
+  font-family: 'Nunito', sans-serif; }
 
 .page-child #main .entry-content ol li,
 .single-termin #main .content-column ol li {
@@ -10830,12 +10854,14 @@ a[href$=".pdf"]:before {
 .persp_subpage_children li a {
   display: block;
   border-left: 2px solid transparent;
-  color: #40434E; }
+  color: #5C5B5A;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px; }
 
 .persp_subpage_children .current_page_item {
   border-left: 2px solid #4D9E54;
   font-weight: 600;
-  color: #629DD9; }
+  color: #4D9E54; }
 
 @media (max-width: 767px) {
   .page-child .one_fourth {
