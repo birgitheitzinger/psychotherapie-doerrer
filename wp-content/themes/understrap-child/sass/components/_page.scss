@@ -114,11 +114,11 @@ blockquote p:first-child:before {
   content: "";
   background: url("../img/quotemark_before.png");
   position: absolute;
-  background-size: 17px auto !important;
-  width: 18px;
-  height: 18px;
+  background-size: 15px auto !important;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat !important;
-  margin-left: -30px;
+  margin-left: -25px;
   margin-top: 15px;
 }
 
@@ -126,12 +126,13 @@ blockquote p:first-child:after {
   content: "";
   background: url("../img/quotemark_after.png");
   position: absolute;
-  background-size: 16.5px auto !important;
-  width: 18px;
-  height: 18px;
+  background-size: 15px auto !important;
+  width: 15px;
+  height: 15px;
   background-repeat: no-repeat !important;
-  margin-left: 15px;
-  margin-bottom: -12px;
+  margin-left: 10px;
+  margin-bottom: -10px;
+  margin-top: 2px;
 }
 
 blockquote p:nth-child(2){
@@ -163,16 +164,20 @@ a[href$=".pdf"] {
   border-style: solid;
   border-color: $light-grey_60;
   font-size: $standard_fontsize;
-  color: $light-blue !important;
+  color: $intense-green !important;
   padding: 20px 15px;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-left: 20px;
 }
 
 a[href$=".pdf"]:before {
-  content: "\f12e";
+  content: "\f407";
   font-family: Ionicons;
-  font-size: 22px;
+  font-size: 30px;
+  line-height: 0;
+  top: 6px;
+  position: relative; 
   margin-right: 20px;
 }
 
