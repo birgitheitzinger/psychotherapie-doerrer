@@ -156,9 +156,17 @@
 
 @media (max-width: 991px) {
 
+	.navbar-brand {
+		margin-bottom: 15px;
+	}
+
 	button.navbar-toggler {
 		float: right;
 		margin-top: 4px;
+	 }
+
+	 #wrapper-navbar .navbar > .container {
+	 	padding-bottom: 0;
 	 }
 
 	ul#main-menu {
@@ -174,7 +182,6 @@
 
   div#navbarNavDropdown {
     border-top: 1px solid $light-grey_60;
-    margin-top: 15px;
 	} 
 
 	span.navbar-toggler-icon:before {
@@ -184,6 +191,15 @@
     font-family: Ionicons;
 	}
 
+	@media (max-width: 991px) {
+		span.navbar-toggler-icon:before {
+    	font-size: 35px;
+    }
+
+    button.navbar-toggler {
+      margin-top: 1px !important;
+    }
+	}
 
 	#main-menu {
 		-webkit-box-orient: vertical;
@@ -215,8 +231,8 @@
 		margin-right: 0px;
 	}
 
-	#main-menu > .current-menu-parent.menu-item.in.open > a,
-	#main-menu > .menu-item.in.open > a {
+	#main-menu > .current-menu-parent.menu-item.open > a,
+	#main-menu > .menu-item.open > a {
 		width: 100%;
 		border-bottom: 2px solid $intense-green !important;
 	}

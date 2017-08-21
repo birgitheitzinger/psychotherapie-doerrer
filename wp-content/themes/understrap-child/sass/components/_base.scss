@@ -1,15 +1,3 @@
-/* Overflow Fix*/
-
-html, body {
-  overflow-x: hidden !important; 
-} 
-
-@media (max-width: 991px ) {
-	#wpadminbar {
-		display: none !important;
-	}
-}
-
 /*_______Base________*/
 
 body {
@@ -205,6 +193,37 @@ h4,
 	margin-bottom: 0 !important;
 	margin-top: 0 !important;
 }
+
+
+/*_______________Overflow Fix, Adminbar ...________________*/
+
+html, body {
+  overflow-x: hidden !important; 
+} 
+
+@media (max-width: 991px ) {
+	#wpadminbar {
+		display: none !important;
+	}
+
+	.logged-in {
+    margin-top: -32px !important; 
+  }
+}
+
+@media (max-width: 782px) {
+	.logged-in {
+	    margin-top: -46px !important; 
+	  }
+}
+
+@media (max-width: 767px) {
+	* { 
+    pointer-events: none !important;
+	}
+}
+
+
 
 
 

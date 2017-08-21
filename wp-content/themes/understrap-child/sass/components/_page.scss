@@ -34,6 +34,12 @@
 @media (max-width: 991px) {
   .page-header-img {
     height: 300px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .page-header-img img {
+    min-height: 100%;
+    width: auto;
   }
 
   .page-child >.three_fourth {
@@ -169,14 +175,15 @@ a[href$=".pdf"] {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-left: 20px;
+  font-weight: 400;
 }
 
 a[href$=".pdf"]:before {
   content: "\f407";
   font-family: Ionicons;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 0;
-  top: 6px;
+  top: 8px;
   position: relative; 
   margin-right: 20px;
 }
@@ -185,8 +192,34 @@ a[href$=".pdf"]:before {
 /* list styles */
 
 .page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields),
+.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) {
+  list-style-type: none !important;
+  font-size: $standard_fontsize;
+  padding-left: 22px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
+.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before {
+  text-align: right;
+  margin-left: -36px;
+  margin-right: 13px;
+  width: 22px;
+  display: inline-block;
+}
+
+.page-child #main .entry-content ol li:before,
+.single-termin #main .content-column ol li:before {
+  text-align: right;
+  margin-left: -35px;
+  margin-right: 13px;
+  width: 22px;
+  display: inline-block;
+}
+
+
 .page-child #main .entry-content ol,
-.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields),
 .single-termin #main .content-column ol {
   list-style-type: none !important;
   font-size: $standard_fontsize;
@@ -195,16 +228,6 @@ a[href$=".pdf"]:before {
   margin-bottom: 40px;
 }
 
-.page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
-.page-child #main .entry-content ol li:before,
-.single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before,
-.single-termin #main .content-column ol li:before {
-  text-align: right;
-  margin-left: -35px;
-  margin-right: 20px;
-  width: 15px;
-  display: inline-block;
-}
 
 .page-child #main .entry-content ul:not(.subpage-navi):not(.gform_fields) li:before,
 .single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before, {

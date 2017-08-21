@@ -24,6 +24,7 @@ select {
 	border: 1px solid $light-grey_60;
 	padding-left: 10px !important;
 	font-size: $standard-fontsize;
+	border-radius: 5px; 
 }
 
 .gform_wrapper .gfield_checkbox li input, 
