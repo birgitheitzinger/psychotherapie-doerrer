@@ -9417,9 +9417,10 @@ html, body {
   .logged-in {
     margin-top: -46px !important; } }
 
-@media (max-width: 767px) {
-  * {
-    pointer-events: none !important; } }
+/*_______________ No hover on mobile ________________*/
+@media (max-width: 991px) {
+  *:hover {
+    box-shadow: none !important; } }
 
 .departments .container-md-up,
 .banner_profile .profile_txt,
