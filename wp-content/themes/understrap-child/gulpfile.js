@@ -262,3 +262,4 @@ gulp.task('dist-product', ['clean-dist-product'], function() {
 gulp.task('clean-dist-product', function () {
   return del(['dist-product/**/*',]);
 });
+

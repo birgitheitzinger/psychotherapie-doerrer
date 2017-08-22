@@ -6,11 +6,15 @@
 
 .single-termin .two_fifth .persp_termin_alle:before {
 	content: "Weitere Termine";
-  color: $light-grey;
-  font-size: $md_fontsize;
+  color: $ultra-light-warmgrey;
+  font-family: 'Nunito', sans-serif;
+  color: #D9D7D4;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 300;
+  height: 52px;
+  display: block;
 }
 
 .single-termin .two_fifth .persp_termin_alle {
@@ -23,7 +27,7 @@
 }
 
 .single-event_info_wrapper {
-	border-color: $light-grey_60;
+	border-color: $ultra-light-warmgrey;
 	border-style: solid;
 	border-width: 1px 0;
 	padding-top: 20px;

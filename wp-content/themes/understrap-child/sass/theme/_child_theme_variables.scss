@@ -1,15 +1,15 @@
-// Use this file to overwrite the basic Bootstrap variables and add your own variables
-// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
-// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
-// As example you find one of the most important Bootstrap variable below: $brand-primary.
-// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
-// Just add your color code here, compile the theme.scss file to change this color everywhere
+/* Use this file to overwrite the basic Bootstrap variables and add your own variables*/
+/* To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. */
+/* Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.*/
+/* As example you find one of the most important Bootstrap variable below: $brand-primary.*/
+/* Thats the ugly Bootstrap blue used for all the links, primary buttons etc.*/
+/* Just add your color code here, compile the theme.scss file to change this color everywhere*/
 
 
 /*_________Colors________*/
 
 
-$brand-primary:         #424141; //#ff6d5a
+$brand-primary:         #424141; /*#ff6d5a*/
 
 
 $dark-blue: #1F222E;
@@ -32,7 +32,7 @@ $white: #FFFFFF;
 $dark-warmgrey: #424141; /* Text */
 $medium-warmgrey: #5C5B5A; /* Headlines */
 $light-warmgrey: #8C8B89; /* Quote Text */
-$ultra-light-wramgrey: #D9D7D4; /* Lines */
+$ultra-light-warmgrey: #D9D7D4; /* Lines, grey Headlines = light-grey_60*/
 
 $beige-grey: #EBEAE6; /* Background */
 $beige-grey_50: #FAF9F8; /* Light Backgrounds */

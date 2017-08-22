@@ -1,7 +1,7 @@
 /*footer*/
 
 #wrapper-footer-full {
-	background-color: $light-grey_20;
+	background-color: $ultra-light-warmgrey;
 	padding-top: 0 !important; 
 	padding-bottom: 0 !important;
 }
@@ -42,6 +42,8 @@ footer ul {
 	padding-right: 15px;
 	font-size: 18px;
 	line-height: 0.5;
+	width: 25px; 
+	display: inline-block;
 }
 
 .footer_xs_section .light_text p:nth-child(2) {
@@ -82,6 +84,17 @@ footer ul {
 
 /*_________RESPONSIVE__________*/
 
+@media (min-width: 576px) {
+
+	.nl_feedback_links i {
+		font-size: 25px;
+		position: relative;
+    top: 3px;
+    width: 25px;
+    left: -5px;
+	}
+}
+
 @media (max-width: 991px) {
 
 	.footer_copyright {
@@ -97,9 +110,8 @@ footer ul {
 
 	.footer_xs_section,
 	.nl_feedback_links {
-		margin-top: 20px;
+		margin-top: 6px;
 	}
-
 }
 
 @media (max-width: 767px) {
@@ -138,9 +150,15 @@ footer ul {
 		padding-top: 0;
 	}
 
-	.footer_txt i {
-		padding-right: 20px !important;
-		padding-left: 20px !important;
+	.footer_txt .nl_subscription_link i {
+		margin-right: 10px !important;
+		font-size: 28px;
+	}
+
+	.footer_txt .hidden-md-up i {
+		width: 60px; 
+		display: inline-block;
+		text-align: center; 
 		font-size: 28px;
 	}
 

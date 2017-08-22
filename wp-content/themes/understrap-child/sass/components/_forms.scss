@@ -4,7 +4,7 @@
 }
 
 .gfield_label {
-	color: $medium-bluegray;
+	color: $medium-warmgrey;
 }
 
 body .gform_wrapper .top_label div.ginput_container {
@@ -20,8 +20,8 @@ body .gform_wrapper ul li.gfield select {
 .gfield input,
 .gfield textarea,
 select {
-	background-color: $light-grey_20;
-	border: 1px solid $light-grey_60;
+	background-color: $beige-grey_50;
+	border: 1px solid $ultra-light-warmgrey;
 	padding-left: 10px !important;
 	font-size: $standard-fontsize;
 	border-radius: 5px; 
@@ -35,7 +35,7 @@ select {
 
 .gfield_checkbox label {
 	font-size: 18px !important;
-	color: $medium-bluegray;
+	color: $medium-warmgrey;
 }
 
 .gfield_checkbox {
@@ -55,7 +55,7 @@ select {
 .gform_wrapper .instruction {
 	padding-top: 5px;
 	margin-left: 10px;
-	color: $light-grey;
+	color: $light-warmgrey;
 }
 
 

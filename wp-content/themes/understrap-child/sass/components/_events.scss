@@ -20,7 +20,7 @@
 	position: relative;
 	padding-top: 20px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid $light-grey_60;
+	border-bottom: 1px solid $ultra-light-warmgrey;
 	padding-left: 15px;
 	margin-left: -15px;
 	padding-right: 15px;
@@ -29,7 +29,8 @@
 
 
 .news-section a:first-of-type >div {
-	border-top: 1px solid $light-grey_60;
+	border-top: 1px solid $ultra-light-warmgrey
+;
 	margin-top: 40px;
 }
 
@@ -59,7 +60,7 @@
 /* landingpage */
 
 .persp_termin_alle.section.events a:first-of-type> div {
-	border-top: 1px solid $light-grey_60;
+	border-top: 1px solid $ultra-light-warmgrey;
 }
 
 @media (max-width: 991px) {

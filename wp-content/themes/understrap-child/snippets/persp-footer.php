@@ -51,8 +51,8 @@
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 nl_feedback_links">
           <ul>
-            <li class="nl_subscription_link"><a href="http://persp.dbkldp.com/newsletter/"><i class="ion-ios-paper" aria-hidden="true"></i>Newsletter abonnieren</a></li>
-            <li class="feedback_form_link"><a href="http://persp.dbkldp.com/feedback/"><i class="ion-ios-chatbubble" aria-hidden="true"></i>Feedback geben</a></li>
+            <li class="nl_subscription_link"><a href="http://persp.dbkldp.com/newsletter/"><i class="ion-ios-paper-outline" aria-hidden="true"></i>Newsletter abonnieren</a></li>
+            <li class="feedback_form_link"><a href="http://persp.dbkldp.com/feedback/"><i class="ion-ios-chatbubble-outline" aria-hidden="true"></i>Feedback geben</a></li>
           </ul>
         </div>
       </div>

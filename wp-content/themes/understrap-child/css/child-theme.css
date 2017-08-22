@@ -1,9 +1,16 @@
 @charset "UTF-8";
+/* Use this file to overwrite the basic Bootstrap variables and add your own variables*/
+/* To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. */
+/* Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.*/
+/* As example you find one of the most important Bootstrap variable below: $brand-primary.*/
+/* Thats the ugly Bootstrap blue used for all the links, primary buttons etc.*/
+/* Just add your color code here, compile the theme.scss file to change this color everywhere*/
 /*_________Colors________*/
+/*#ff6d5a*/
 /* Text */
 /* Headlines */
 /* Quote Text */
-/* Lines */
+/* Lines, grey Headlines = light-grey_60*/
 /* Background */
 /* Light Backgrounds */
 /* Buttons, Headlines, etc. */
@@ -9269,8 +9276,8 @@ footer {
   margin: 0 auto; }
 
 hr {
-  color: #E0E0E0;
-  background-color: #E0E0E0; }
+  color: #D9D7D4;
+  background-color: #D9D7D4; }
 
 .entry-title {
   display: none; }
@@ -9313,7 +9320,7 @@ h5,
   font-weight: 400; }
 
 .light_text {
-  color: #F5F5F5; }
+  color: #FAF9F8; }
 
 h1 {
   font-size: 38px;
@@ -9420,6 +9427,7 @@ html, body {
 /*_______________ No hover on mobile ________________*/
 @media (max-width: 991px) {
   *:hover {
+    -webkit-box-shadow: none !important;
     box-shadow: none !important; } }
 
 .departments .container-md-up,
@@ -9508,9 +9516,6 @@ html, body {
   width: 220px;
   height: auto; }
 
-/*.navbar-brand:hover {
-	color: #353843;
-}*/
 .collapse.show {
   display: initial; }
 
@@ -9552,24 +9557,20 @@ html, body {
   margin-right: 15px; }
 
 #main-menu li .nav-link {
-  color: #5C5B5A; }
+  color: #5C5B5A;
+  border-bottom: 2px solid transparent; }
 
 #main-menu li .nav-link:after {
   display: none; }
 
-#main-menu > .current-menu-parent > a,
-#main-menu > .menu-item:active > a,
-#main-menu > .menu-item.in.open > a {
-  color: #4D9E54 !important;
-  font-weight: 400; }
-
-#main-menu .menu-item .dropdown-menu li a:hover {
+#main-menu .menu-item .dropdown-menu li a:hover,
+#main-menu .menu-item > a:hover {
   color: #4D9E54 !important; }
 
 #main-menu > .menu-item > a:before {
   display: block;
   content: attr(title);
-  font-weight: 600;
+  font-weight: 400;
   height: 1px;
   color: transparent;
   overflow: hidden;
@@ -9580,8 +9581,7 @@ html, body {
 
 #main-menu .dropdown-menu .current-menu-item {
   border-left: 2px solid #4D9E54;
-  color: #4D9E54;
-  font-weight: 600; }
+  color: #4D9E54; }
 
 #main-menu .dropdown-menu .menu-item a.nav-link:hover {
   background-color: transparent; }
@@ -9591,21 +9591,21 @@ html, body {
 
 /*____________Media Q____________*/
 @media (min-width: 992px) {
-  #main-menu > .current-menu-parent,
-  #main-menu > .menu-item:active,
-  #main-menu > .menu-item.in.open {
-    border-bottom: 2px solid #4D9E54 !important; }
+  #main-menu > .current-menu-parent > a,
+  #main-menu > .menu-item.in.open > a {
+    border-bottom: 2px solid #4D9E54 !important;
+    color: #4D9E54 !important; }
   #main-menu .menu-item .dropdown-menu {
     border: none;
-    background-color: #F5F5F5;
-    border-radius: 5px;
-    margin-top: 18px; }
+    background-color: #FAF9F8;
+    border-radius: 0 0 5px 5px;
+    margin-top: 17px; }
   #main-menu .menu-item .dropdown-menu:before {
     content: "\f10d";
     width: 20px;
     height: 20px;
     position: absolute;
-    color: #F5F5F5;
+    color: #FAF9F8;
     top: -30px;
     left: 20px;
     font-size: 40px;
@@ -9629,7 +9629,7 @@ html, body {
     -ms-flex-align: start;
     align-items: flex-start; }
   div#navbarNavDropdown {
-    border-top: 1px solid #E0E0E0; }
+    border-top: 1px solid #D9D7D4; }
   span.navbar-toggler-icon:before {
     color: #5C5B5A;
     content: "\f20d";
@@ -9801,7 +9801,7 @@ button:focus {
   display: none !important; }
 
 .gfield_label {
-  color: #787A82; }
+  color: #5C5B5A; }
 
 body .gform_wrapper .top_label div.ginput_container {
   margin-top: 0 !important; }
@@ -9814,8 +9814,8 @@ body .gform_wrapper ul li.gfield select {
 .gfield input,
 .gfield textarea,
 select {
-  background-color: #F5F5F5;
-  border: 1px solid #E0E0E0;
+  background-color: #FAF9F8;
+  border: 1px solid #D9D7D4;
   padding-left: 10px !important;
   font-size: 17px;
   border-radius: 5px; }
@@ -9827,7 +9827,7 @@ select {
 
 .gfield_checkbox label {
   font-size: 18px !important;
-  color: #787A82; }
+  color: #5C5B5A; }
 
 .gfield_checkbox {
   margin-bottom: 0px !important;
@@ -9843,7 +9843,7 @@ select {
 .gform_wrapper .instruction {
   padding-top: 5px;
   margin-left: 10px;
-  color: #CCCCCC; }
+  color: #8C8B89; }
 
 .gform_button {
   padding-left: 20px !important;
@@ -9977,8 +9977,6 @@ select {
     width: 100%;
     height: 1px;
     background: -webkit-gradient(linear, left top, right top, from(white), color-stop(40%, #ccc), color-stop(60%, #ccc), to(white));
-    background: -webkit-linear-gradient(left, white, #ccc 40%, #ccc 60%, white);
-    background: -o-linear-gradient(left, white, #ccc 40%, #ccc 60%, white);
     background: linear-gradient(to right, white, #ccc 40%, #ccc 60%, white);
     top: 20px; }
   .banner_department_symbol {
@@ -10035,7 +10033,7 @@ select {
 
 .banner_profile .subheadline_h1,
 .banner_profile p {
-  color: #F5F5F5; }
+  color: #FAF9F8; }
 
 .banner_profile p {
   -webkit-hyphens: auto;
@@ -10054,18 +10052,26 @@ select {
     background-image: url("../img/profile_img_landingpage.jpg");
     background-size: 135%;
     background-position: left top;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
   .btn_banner {
+    -ms-flex-item-align: start;
     align-self: flex-start; }
   .profile_txt .subheadline_h1 {
     max-width: 70%; } }
 
 .banner_credentials {
   padding-bottom: 0;
-  background-color: #E0EBF7;
   margin-top: 60px; }
 
 .banner_credentials__description_txt {
@@ -10117,14 +10123,14 @@ select {
   position: relative;
   padding-top: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #D9D7D4;
   padding-left: 15px;
   margin-left: -15px;
   padding-right: 15px;
   margin-right: -15px; }
 
 .news-section a:first-of-type > div {
-  border-top: 1px solid #E0E0E0;
+  border-top: 1px solid #D9D7D4;
   margin-top: 40px; }
 
 .all_events_page {
@@ -10148,7 +10154,7 @@ select {
 
 /* landingpage */
 .persp_termin_alle.section.events a:first-of-type > div {
-  border-top: 1px solid #E0E0E0; }
+  border-top: 1px solid #D9D7D4; }
 
 @media (max-width: 991px) {
   .home .three_fifth {
@@ -10323,7 +10329,7 @@ select {
 
 /*footer*/
 #wrapper-footer-full {
-  background-color: #F5F5F5;
+  background-color: #D9D7D4;
   padding-top: 0 !important;
   padding-bottom: 0 !important; }
 
@@ -10356,7 +10362,9 @@ footer ul {
 .footer_txt i {
   padding-right: 15px;
   font-size: 18px;
-  line-height: 0.5; }
+  line-height: 0.5;
+  width: 25px;
+  display: inline-block; }
 
 .footer_xs_section .light_text p:nth-child(2) {
   margin-top: 20px; }
@@ -10383,6 +10391,14 @@ footer ul {
     padding-bottom: 20px; } }
 
 /*_________RESPONSIVE__________*/
+@media (min-width: 576px) {
+  .nl_feedback_links i {
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    width: 25px;
+    left: -5px; } }
+
 @media (max-width: 991px) {
   .footer_copyright {
     padding-top: 40px; }
@@ -10393,7 +10409,7 @@ footer ul {
     display: block; }
   .footer_xs_section,
   .nl_feedback_links {
-    margin-top: 20px; } }
+    margin-top: 6px; } }
 
 @media (max-width: 767px) {
   .footer * {
@@ -10415,9 +10431,13 @@ footer ul {
     padding: 0 !important; }
   .footer_copyright {
     padding-top: 0; }
-  .footer_txt i {
-    padding-right: 20px !important;
-    padding-left: 20px !important;
+  .footer_txt .nl_subscription_link i {
+    margin-right: 10px !important;
+    font-size: 28px; }
+  .footer_txt .hidden-md-up i {
+    width: 60px;
+    display: inline-block;
+    text-align: center;
     font-size: 28px; }
   .footer_txt i:before {
     display: inline-block;
@@ -10458,7 +10478,7 @@ footer ul {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  border: 1px solid #E0E0E0; }
+  border: 1px solid #D9D7D4; }
 
 .sticky_sidebar li {
   display: block;
@@ -10514,11 +10534,15 @@ footer ul {
 
 .single-termin .two_fifth .persp_termin_alle:before {
   content: "Weitere Termine";
-  color: #CCCCCC;
+  color: #D9D7D4;
+  font-family: 'Nunito', sans-serif;
+  color: #D9D7D4;
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400; }
+  font-weight: 300;
+  height: 52px;
+  display: block; }
 
 .single-termin .two_fifth .persp_termin_alle {
   margin-top: 125px !important;
@@ -10528,7 +10552,7 @@ footer ul {
   margin-top: 40px; }
 
 .single-event_info_wrapper {
-  border-color: #E0E0E0;
+  border-color: #D9D7D4;
   border-style: solid;
   border-width: 1px 0;
   padding-top: 20px;
@@ -10606,12 +10630,13 @@ footer ul {
 .page-header-img img {
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   position: absolute;
   overflow: hidden;
   max-width: none !important;
   display: block;
-  min-width: 100%;
+  min-width: 105%;
   height: auto; }
 
 .page-child .three_fourth {
@@ -10620,15 +10645,15 @@ footer ul {
 @media (max-width: 1199px) {
   .page-child > .three_fourth {
     width: 70% !important;
-    padding-right: 40px; } }
+    padding-right: 40px; }
+  .page-header-img img {
+    min-height: 105%;
+    width: auto; } }
 
 @media (max-width: 991px) {
   .page-header-img {
     height: 300px !important;
     margin-bottom: 40px !important; }
-  .page-header-img img {
-    min-height: 100%;
-    width: auto; }
   .page-child > .three_fourth {
     padding-right: 30px;
     width: 62% !important; } }
@@ -10729,7 +10754,7 @@ a[href$=".pdf"] {
   display: block;
   border-width: 1px 0;
   border-style: solid;
-  border-color: #E0E0E0;
+  border-color: #D9D7D4;
   font-size: 17px;
   color: #4D9E54 !important;
   padding: 20px 15px;
@@ -10873,7 +10898,7 @@ a[href$=".pdf"]:before {
 .page-child .persp_subpage_children.one_fourth:before {
   content: "";
   font-family: 'Nunito', sans-serif;
-  color: #CCCCCC;
+  color: #D9D7D4;
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;

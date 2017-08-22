@@ -28,8 +28,8 @@ footer {
 }
 
 hr {
-	color: $light-grey_60;
-	background-color: $light-grey_60;
+	color: $ultra-light-warmgrey;
+	background-color: $ultra-light-warmgrey;
 }
 
 .entry-title {
@@ -81,7 +81,7 @@ h5,
 }
 
 .light_text {
-	color: $light-grey_20;
+	color: $beige-grey_50;
 }
 
 h1 {
@@ -221,7 +221,8 @@ html, body {
 
 @media (max-width: 991px) {
 	*:hover { 
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important; 
+            box-shadow: none !important;
 	}
 }
 
