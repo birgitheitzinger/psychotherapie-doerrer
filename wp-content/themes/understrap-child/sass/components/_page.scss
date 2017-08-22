@@ -40,9 +40,11 @@
 @media (max-width: 991px) {
   .page-header-img {
     height: 300px !important;
-    margin-bottom: 40px !important;
   }
 
+  .home .page-header-img {
+    margin-bottom: 31px !important;
+  }
 
   .page-child >.three_fourth {
     padding-right: 30px; 
@@ -198,7 +200,7 @@ a[href$=".pdf"]:before {
 .single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) {
   list-style-type: none !important;
   font-size: $standard_fontsize;
-  padding-left: 22px;
+  padding-left: 23px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -207,8 +209,8 @@ a[href$=".pdf"]:before {
 .single-termin #main .content-column ul:not(.subpage-navi):not(.gform_fields) li:before {
   text-align: right;
   margin-left: -36px;
-  margin-right: 13px;
-  width: 22px;
+  margin-right: 8px;
+  width: 25px;
   display: inline-block;
 }
 
@@ -216,8 +218,8 @@ a[href$=".pdf"]:before {
 .single-termin #main .content-column ol li:before {
   text-align: right;
   margin-left: -35px;
-  margin-right: 13px;
-  width: 22px;
+  margin-right: 8px;
+  width: 27px;
   display: inline-block;
 }
 
@@ -226,7 +228,7 @@ a[href$=".pdf"]:before {
 .single-termin #main .content-column ol {
   list-style-type: none !important;
   font-size: $standard_fontsize;
-  padding-left: 30px;
+  padding-left: 25px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -273,7 +275,7 @@ a[href$=".pdf"]:before {
 .subpage-navi {
   border-top: 1px solid $ultra-light-warmgrey
 ;
-  padding: 20px 0 ;
+  padding: 20px 0 0;
   margin-top: 40px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;

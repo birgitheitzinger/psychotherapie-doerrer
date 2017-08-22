@@ -7,13 +7,18 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 300;
-  height: 52px;
+  min-height: 52px;
   display: block;
+  line-height: 1.55;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  margin-bottom: 10px;
 }
 
 
 .page-child .persp_subpage_children.one_fourth {
-  margin-top: 80px !important; /*148 wenn haupt-überschrift h1*/
+  margin-top: 138px;
   padding-left: 30px;
   margin-bottom: 60px;
 }

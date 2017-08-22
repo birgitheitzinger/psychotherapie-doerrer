@@ -1,11 +1,18 @@
 
 .quotes_landingpage_slider {
   padding: 30px;
-  margin-top: 13px;
-  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-bottom: 0px;
   position: relative;
   background-color: $beige-grey_50;
-  border-radius: 5px; 
+  border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .quotes_landingpage_slider {
+    margin-top: 13px;
+    margin-bottom: 27px
+  }
 }
 
 .quotes_landingpage_slider:before {

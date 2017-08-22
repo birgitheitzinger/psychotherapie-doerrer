@@ -15,10 +15,15 @@
   font-weight: 300;
   height: 52px;
   display: block;
+  line-height: 1.55;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  margin-bottom: 10px;
 }
 
 .single-termin .two_fifth .persp_termin_alle {
-	margin-top: 125px !important;
+	margin-top: 138px !important;
 	padding-left: 60px;
 }
 
