@@ -51,8 +51,8 @@
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 nl_feedback_links">
           <ul>
-            <li class="nl_subscription_link"><a href="http://persp.dbkldp.com/newsletter/"><i class="ion-ios-paper-outline" aria-hidden="true"></i>Newsletter abonnieren</a></li>
-            <li class="feedback_form_link"><a href="http://persp.dbkldp.com/feedback/"><i class="ion-ios-chatbubble-outline" aria-hidden="true"></i>Feedback geben</a></li>
+            <li class="nl_subscription_link"><a href="http://psy.dbkldp.com/newsletter/"><i class="ion-ios-paper-outline" aria-hidden="true"></i>Newsletter abonnieren</a></li>
+            <li class="feedback_form_link"><a href="http://psy.dbkldp.com/feedback/"><i class="ion-ios-chatbubble-outline" aria-hidden="true"></i>Feedback geben</a></li>
           </ul>
         </div>
       </div>
@@ -61,10 +61,10 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer_copyright">
       <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer_xs_section">
         <div class="footer_copyright_bottom">
-          <span class="light_text">© Perspektiefe</span>
-          <a href="http://persp.dbkldp.com/impressum/">Impressum</a>
-          <a href="http://persp.dbkldp.com/agbs/">AGBs</a>
-          <a target="_blank" href="http://www.psychotherapie-doerrer.at">www.psychotherapie-doerrer.at </a>
+          <span class="light_text">© Stefan Dörrer</span>
+          <a href="http://psy.dbkldp.com/impressum/">Impressum</a>
+          <a href="http://psy.dbkldp.com/agbs/">AGBs</a>
+          <a target="_blank" href="http://www.perspektiefe.at">www.perspektiefe.at </a>
           <ul class="hidden-md-up">
             <li><a target="_blank" href="https://www.facebook.com/perspektiefe/"><i class="ion-social-facebook" aria-hidden="true"></i></a></li>
             <li><a target="_blank" href="https://plus.google.com/100130397706869557815"><i class="ion-social-googleplus" aria-hidden="true"></i></a></li>

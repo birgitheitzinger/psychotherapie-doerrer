@@ -84,3 +84,10 @@
     max-width: 70%;
   }
 }
+
+@media (max-width: 366px) {
+  .banner_profile .profile_txt {
+    background-size: 155%;
+  }
+}
+
