@@ -10,8 +10,14 @@
 
 @media (max-width: 991px) {
   .quotes_landingpage_slider {
+    margin-top: 35px;
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 599px) {
+  .quotes_landingpage_slider {
     margin-top: 13px;
-    margin-bottom: 27px
   }
 }
 
