@@ -74,7 +74,7 @@
 
 .slick-dots li button {
   font-size: 0;
-  background-color: $light-grey;
+  background-color: transparent;
   height: 10px;
   width: 10px;
   padding: 0;
@@ -83,8 +83,8 @@
 }
 
 .slick-active button {
-  background-color: $medium-bluegray !important;
-}
+  background-color: transparent;
+} 
 
 
 @media (max-width: 767px) {

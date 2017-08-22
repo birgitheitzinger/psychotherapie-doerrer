@@ -10312,7 +10312,7 @@ select {
 
 .slick-dots li button {
   font-size: 0;
-  background-color: #CCCCCC;
+  background-color: transparent;
   height: 10px;
   width: 10px;
   padding: 0;
@@ -10320,7 +10320,7 @@ select {
   display: none; }
 
 .slick-active button {
-  background-color: #787A82 !important; }
+  background-color: transparent; }
 
 @media (max-width: 767px) {
   .quotes_landingpage_slider {
